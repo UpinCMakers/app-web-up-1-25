@@ -1,8 +1,7 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <div :stye="{'display':'flex','justify-content':'center','font-size':'4rem'}" 
+  class="mt-30"
+  >Plataforma em manutenção.</div>
   <!--<router-view/>-->
 </template>
 
