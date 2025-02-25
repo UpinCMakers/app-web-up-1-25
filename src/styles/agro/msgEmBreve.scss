@@ -1,0 +1,15 @@
+.box_msgEmBreve {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    //margin-top:200px;
+    //border:1px solid red;
+}
+.box_msgEmBreve .msg_el {
+    display:flex;
+    color:blanchedalmond;
+    font-size: 1.2rem;
+    font-weight: bold;
+    //border:1px solid red;
+}

@@ -1,0 +1,29 @@
+.box_painelExpande {
+    display:flex;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor {
+    display:flex;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor .cardExpansor {
+    display:flex;
+    //border:1px solid rgb(25, 0, 255);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .titCardExpansor {
+    display:flex;
+    color:#092D4F;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor {
+    display:flex;
+    padding:2px;
+    font-size: 0.9rem;
+    //border:1px solid rgb(255, 0, 55);
+}

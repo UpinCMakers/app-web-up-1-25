@@ -1,0 +1,15 @@
+.box_mainDashAgro {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    //border:1px solid rgb(89, 0, 255);
+}
+.box_mainDashAgro .progress_bar_pda {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    //border:1px solid rgb(89, 0, 255);
+}

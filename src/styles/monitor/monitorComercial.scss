@@ -1,0 +1,88 @@
+.box_monitorComercial {
+    display:flex;
+    flex-direction: column;
+    min-height: 500px;
+    //border:1px solid red;
+}
+
+.box_monitorComercial .titGwComercial {
+    display: flex;
+    flex-direction: column;
+    //border:1px solid red;
+}
+.box_monitorComercial .titGwComercial .iconTitGw {
+    display: flex;
+    align-self: center;
+    width: 50%;
+    color:rgb(31,122,177);
+    //border:1px solid rgb(0, 255, 115);
+}
+.box_monitorComercial .titGwComercial .tit {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    //border:1px solid rgb(0, 255, 115);
+}
+.box_monitorComercial .titGwComercial .subTit {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    font-weight: 400;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_monitorComercial .titGwComercial .subTit .elSubTit {
+    display: flex;
+    margin-right:6px;
+    //border:1px solid rgb(76, 0, 255);
+}
+
+.box_monitorComercial .painelLinhas {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 80%;
+    border-radius:16px;
+    box-shadow: 0px 1px 2px rgb(7,46,79);
+    background: #B2B2B2;
+    //border:1px solid red;
+}
+.box_monitorComercial .painelLinhas .boxLinha {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    //border:1px solid rgb(25, 0, 255);
+}
+.box_monitorComercial .painelLinhas .boxLinha .colImg {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    border-radius: 12px;
+    //border:1px solid rgb(255, 187, 0);
+}
+.box_monitorComercial .painelLinhas .boxLinha .colTxt {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    height: 120px;
+    width: 230px;
+    font-weight: bolder;
+    //font-weight: 400;
+    //border:1px solid rgb(255, 0, 140);
+}
+.box_monitorComercial .painelLinhas .boxLinha .colTxt .elTxt {
+    display: flex;
+    //justify-content: center;
+    //align-items: flex-end;
+    align-self: center;
+    //width: 85%;
+    //height: 50%;
+    margin-right: 6px;
+    //border:1px solid rgb(0, 102, 255);
+}

@@ -1,0 +1,54 @@
+.box_painelExpande {
+    display:flex;
+    align-self: center;
+    width: 90%;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor {
+    display:flex;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor .cardExpansor {
+    display:flex;
+    //border:1px solid rgb(25, 0, 255);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .titCardExpansor {
+    display:flex;
+    color:#092D4F;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor {
+    display:flex;
+    padding:2px;
+    font-size: 0.9rem;
+    //border:1px solid rgb(255, 0, 55);
+}
+
+/* ADAPTAÇÃO PARA A PÁGINA CONTADOR DE ÁGUA SET24 */
+.box_painelExpande .painelCardExpansor .cardExpansor 
+.el_cardExpansor .respCardExpansor .boxContador {
+    display:flex;
+    flex-wrap: wrap;
+    padding:2px;
+    margin-bottom:4px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px black;
+    background: rgba(7,46,79,0.8);
+    cursor: pointer;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor 
+.el_cardExpansor .respCardExpansor .boxContador .elCol_Box {
+    display:flex;
+    flex-direction: column;
+    padding:8px;
+    max-width: 250px;
+    //color:rgb(247,215,46);
+    border:1px solid rgba(1, 0, 8, 0.1);
+}

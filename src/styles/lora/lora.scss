@@ -1,0 +1,169 @@
+.box_lora {
+    display:flex;
+    flex-direction: column;
+
+    min-height: 800px;
+    height: 100%;
+    font-size: 0.8rem;
+
+    //border:1px solid red;
+}
+.box_lora .linha_zero {
+    display:flex;
+    align-self: center;
+    justify-content: flex-start;
+    width: 80%;
+    //border:1px solid red;
+}
+.box_lora .linha_zero .line_btnToBack {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    //border:1px solid red;
+}
+
+.box_lora .tit_linha {
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:120px;
+    width: 80%;
+    //margin-bottom: 20px;
+    font-size: 1.4rem;
+    //border:1px solid red;
+}
+.box_lora .tit_linha .tit {
+    display:flex;
+    font-size: 1.4rem;
+    //border:1px solid red;
+}
+.box_lora .tit_linha .sub_tit {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+
+.box_lora .primeira_linha {
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:4px;
+    min-height:120px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    border:1px solid rgb(12, 12, 12);
+}
+.box_lora .primeira_linha .tit {
+    display:flex;
+    font-size: 1.4rem;
+    //border:1px solid red;
+}
+.box_lora .primeira_linha .sub_tit {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+
+/* controle main */
+.box_lora .linha_controle {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    width: 70%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    //border:1px solid red;
+}
+.box_lora .linha_controle .card_btn {
+    display:flex;
+    width: 160px;
+    margin-right:4px;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px black;
+    cursor: pointer;
+    border:1px solid rgb(17, 16, 16);
+}
+
+/* controle devices */
+.box_lora .linha_controle_devices {
+    display:flex;
+    align-self: center;
+    //justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    //border:1px solid red;
+}
+.box_lora .linha_controle_devices .card_btn1 {
+    display:flex;
+    width: 160px;
+    margin-right:4px;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px black;
+    cursor: pointer;
+    border:1px solid rgb(17, 16, 16);
+}
+
+.box_lora .segunda_linha {
+    display:flex;
+    align-self: center;
+    //justify-content: center;
+    //align-items: center;
+    //position: relative;
+    //min-height:200px;
+    min-height:15px;
+    width: 70%;
+    margin-bottom: 10px;
+    //border:1px solid rgb(8, 8, 8);
+}
+.box_lora .segunda_linha .sobreposta {
+    display: flex;
+    //position: absolute;
+    z-index: 1000;
+    margin-top: -15px;
+    height: 100%;
+    width: 100%;
+    //max-width: 200px;
+    background-color: #092D4F;
+    //border:1px solid red;
+}
+.box_lora .segunda_linha .imgTester {
+    display: flex;
+    height: 100%;
+    width: 160px;
+    //max-width: 200px;
+    //border:1px solid red;
+}
+
+.box_lora .segunda_linha_small {
+    display:flex;
+    align-self: center;
+    //justify-content: center;
+    //align-items: center;
+    //position: relative;
+    //min-height:200px;
+    min-height:35px;
+    width: 70%;
+    margin-bottom: 10px;
+    //border:1px solid rgb(8, 8, 8);
+}
+.box_lora .segunda_linha_small .sobreposta_small {
+    display: flex;
+    //position: absolute;
+    z-index: 1000;
+    margin-top: -35px;
+    height: 100%;
+    width: 100%;
+    //max-width: 200px;
+    background-color: #092D4F;
+    //border:1px solid red;
+}

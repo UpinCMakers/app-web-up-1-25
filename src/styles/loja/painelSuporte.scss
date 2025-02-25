@@ -1,0 +1,83 @@
+.box_painelSuporteLarge {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .faq {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .faq .tit_faq {
+    display:flex;
+    color:rgb(31,122,177);
+    //color:rgb(247,215,46);
+    font-size: 1.4rem;
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .faq .box_faq {
+    display:flex;
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .faq .box_faq .el_box_faq {
+    display:flex;
+    flex-direction: column;
+    background-color:rgba(1,1,1,0.3);
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .faq .box_faq .el_box_faq .el_faq {
+    display:flex;
+    //color:rgb(31,122,177);
+    color: rgba(7,46,79,0.9);
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .faq .box_faq .el_box_faq .el_faq_content {
+    display:flex;
+    //color:rgb(31,122,177);
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+
+/* OUTROS SUPORTES */
+.box_painelSuporteLarge .outros_sup {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .outros_sup .tit_outros {
+    display:flex;
+    color:rgb(31,122,177);
+    font-size: 1.4rem;
+}
+/*.box_painelSuporteLarge .outros_sup .box_outros {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    border-radius: 4px;
+    background-color:rgba(1,1,1,0.3);
+}*/
+.box_painelSuporteLarge .outros_sup .box_outros {
+    display:flex;
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .outros_sup .box_outros .el_box_outros {
+    display:flex;
+    flex-direction: column;
+    background-color:rgba(1,1,1,0.3);
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .outros_sup .box_outros .el_box_outros .el_outros {
+    display:flex;
+    //color:rgb(31,122,177);
+    color: rgba(7,46,79,0.9);
+    //border:1px solid red;
+}
+.box_painelSuporteLarge .outros_sup .box_outros .el_box_outros .el_outros_content {
+    display:flex;
+    //color:rgb(31,122,177);
+    font-size: 0.8rem;
+    //border:1px solid red;
+}

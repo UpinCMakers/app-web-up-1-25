@@ -1,0 +1,20 @@
+.box_quadLegendGwFound {
+    display:flex;
+    flex-direction: column;
+    min-width: 220px;
+    //border:1px solid red;
+}
+.box_quadLegendGwFound .lineLegend {
+    display:flex;
+    justify-content: space-between;
+    margin:1px;
+    padding:6px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.3);
+    //border:1px solid red;
+}
+.box_quadLegendGwFound .lineLegend .elLegend {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}

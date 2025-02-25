@@ -1,0 +1,102 @@
+.box_lineAuxMain1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    //box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+
+.box_lineAuxMain1 .titElemServs {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    min-height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    //background: rgba(255,255,255,0.9);
+    //border:1px solid red;
+}
+
+.box_lineAuxMain1 .painelElemServs {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    //justify-content: space-between;
+    justify-content: center;
+    //padding:60px;
+    width: 80%;
+    height: 95%;
+    min-height: 320px;
+    background: rgba(255,255,255,0.9);
+    //border:1px solid red;
+}
+
+/* CARD */
+.box_lineAuxMain1 .painelElemServs .elServ {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    margin: 6px;
+    //width: 18%;
+    height: 320px;
+    //margin:10px;
+    //border-radius:120px;
+    border-radius:16px;
+    box-shadow: 0px 1px 2px black;
+    box-shadow: 0px 1px 2px rgb(7,46,79);
+    background: #B2B2B2;
+    cursor: pointer;
+    //border:1px solid rgb(4, 0, 255);
+}
+
+.box_lineAuxMain1 .painelElemServs .elServ .elIconServ {
+    display:flex;
+    height: 15%;
+    padding:4px;
+    //border:1px solid rgb(43, 255, 0);
+}
+
+/* TITULO */
+.box_lineAuxMain1 .painelElemServs .elServ .elTitServ {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //align-self: center;
+    width: 90%;
+    height: 20%;
+    //padding:2px;
+    //border:1px solid rgb(0, 255, 213);
+}
+.box_lineAuxMain1 .painelElemServs .elServ .elTitServ .pTit {
+    display:flex;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin:2px;
+    //border:1px solid rgb(0, 255, 213);
+}
+
+/* TEXTO */
+.box_lineAuxMain1 .painelElemServs .elServ .elTxtServ {
+    display:flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 55%;
+    padding:4px;
+    //border:1px solid rgb(255, 115, 0);
+}
+.box_lineAuxMain1 .painelElemServs .elServ .elTxtServ .pTxt {
+    display:flex;
+    font-size: 0.9rem;
+    //font-weight: 400;
+    margin:2px;
+    //color:rgb(31,122,177);
+    border:1px solid rgba(255, 255, 255,0.01);
+}

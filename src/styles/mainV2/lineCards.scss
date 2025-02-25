@@ -1,0 +1,11 @@
+.box_lineCards {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    //max-width: 600px;
+    min-height: 480px;
+    padding:4px;
+    //border:1px solid red;
+}

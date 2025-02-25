@@ -1,29 +1,78 @@
+<style scoped>
+    @import url("./styles/app.scss");
+</style>
+
 <template>
-  <div :stye="{'display':'flex','justify-content':'center','font-size':'4rem'}" 
-  class="mt-30"
-  >Plataforma em manutenção.</div>
-  <!--<router-view/>-->
+  <v-app class="box_app">
+
+    <MenuSupMainV2 @callByMenu="returnFromMenu($event)" :iconMenu="iconMenu" />
+
+    <MenuBodyMainV2 @callByMenuBody="returnFromMenu($event)" v-if="$store.state.flagMenuSup" />
+
+    <v-main>
+
+      <router-view/>
+    
+    </v-main>
+
+    <Rodape v-if="mdAndUp" />
+    <Rodape :style="{'justify-content':'center'}" v-if="smAndDown" />
+
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script setup>
+import { useDisplay } from 'vuetify'
 
-nav {
-  padding: 30px;
-}
+const { mdAndUp, smAndDown } = useDisplay()
+</script>
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+<script>
+//import MenuMainA from './components/estrutural/MenuMainA.vue'
+//import MenuMainB from './components/estrutural/MenuMainB.vue'
+import Rodape from './components/estrutural/Rodape.vue'
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+import MenuSupMainV2 from './components/mainV2/MenuSupMainV2'
+import MenuBodyMainV2 from './components/mainV2/MenuBodyMainV2'
+
+export default {
+  name: 'App',
+
+  components: { /*MenuMainA, MenuMainB,*/ Rodape, MenuSupMainV2, MenuBodyMainV2 },
+
+  data: () => ({
+    //
+    flagMenuSup:false,
+    iconMenu:'mdi-menu', // init menu small
+  }),
+
+  metaInfo() {
+    return {
+      title:`UPinC`,
+      meta:[
+        {
+          name:'description',
+          content:'UPinC.Makers'
+        }
+      ]
+    }
+  },
+
+  methods: {
+    returnFromMenu(flagStringMenuSmall) {
+
+        if (flagStringMenuSmall == 'open') {
+
+            //console.log('abrir menu')
+            this.$store.state.flagMenuSup = true
+            this.iconMenu = 'mdi-menu-up-outline'
+        
+        } else {
+            //console.log('fechar menu')
+            this.$store.state.flagMenuSup = false
+            this.iconMenu = 'mdi-menu'
+        }
+    }
+  }
+};
+</script>

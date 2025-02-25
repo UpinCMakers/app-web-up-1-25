@@ -1,0 +1,143 @@
+.box_gridFazenda {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    min-width: 300px;
+    //padding:4px;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    //background-color: rgba(255,255,255,0.7);
+    //background-color: rgba(255,255,255,0.3);
+    //box-shadow: 0px 0px 1px black;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_sup {
+    display:flex;
+    justify-content: space-between;
+    height: 50%; /* ajustador da linha superior */
+    width: 100%; /* ajustador da linha superior */
+    //border:1px solid rgb(47, 0, 255);
+}
+.box_gridFazenda .line_sup .item_sup {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.3);
+    //border:1px solid red;
+}
+.box_gridFazenda .line_sup .item_sup .item_sup_tit {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    color:#1F7AB1;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_sup .item_sup .item_sup_body_desc {
+    display:flex;
+    width: 95%;
+    margin-left: 5%;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+
+/* linha horizontal 2 */
+.box_gridFazenda .line_inf {
+    display:flex;
+    flex-direction: column;
+    //height: 49%;
+    min-height: 350px;
+    width: 100%;
+    min-width: 280px;
+    border-radius: 8px;
+    margin-top: 2px;
+    background-color: rgba(255,255,255,0.3);
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding:2px;
+    margin: 2px;
+    border-radius: 8px;
+    //background-color: rgba(255,255,255,0.3);
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .item_inf_tit {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    color:#1F7AB1;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .item_inf_tit .notific {
+    display:flex;
+    padding:1px;
+    border-radius:8px;
+    border:1px solid #1F7AB1;
+}
+/* LOGS */
+.box_gridFazenda .line_inf .item_inf .inf_body {
+    display:flex;
+    flex-direction: column;
+    width: 98%;
+    min-width: 250px;
+    min-height: 180px;
+    //border:1px solid red;
+}
+/* icon scroll */
+.box_gridFazenda .line_inf .item_inf .inf_body .row_scroll_body {
+    display:flex;
+    align-self: center;
+    cursor: pointer;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .inf_body .item_inf_body {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding:4px;
+    //margin: 4px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    //background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.3);
+    //box-shadow: 0px 0px 1px black;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .inf_body .item_inf_body .txt_body {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .inf_body .item_inf_body .end_body {
+    display:flex;
+    align-items: center;
+    font-size: 0.7rem;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .inf_body .action_ver_mais {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_gridFazenda .line_inf .item_inf .inf_body .action_ver_mais .btn_body {
+    display:flex;
+    justify-content: center;
+    padding:4px;
+    margin-top:4px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}

@@ -1,0 +1,81 @@
+.box_menuMainA {
+    display: flex;
+    flex-direction: column;
+    //justify-content: flex-start;
+    //align-items: flex-start;
+
+    width: 90%;
+    max-width: 240px;
+
+    //background: rgba(31,122,177,0.7);
+    //border: 1px solid red;
+}
+.box_menuMainA .el_logo {
+    display: flex;
+
+    //height: 80px;
+    //width: 60px;
+    //margin-left: 3%;
+
+    //margin-right: 10px;
+
+    //border: 1px solid red;
+}
+.box_menuMainA .el_logo .el_img_logo {
+    display: flex;
+
+    height: 120px;
+    //width: 55px;
+    //margin-left: 25px;
+
+    //border: 1px solid rgb(0, 89, 255);
+}
+// MENU JA EXPANDIDO
+.box_menuMainA .menu_opened {
+    display:flex;
+    border: 1px solid rgb(0, 255, 106);
+}
+
+// MENU DE EXPENSÃO
+.box_menuMainA .el_menu {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    min-width:80px; /* forçar wrap vertical */
+    //margin-left:10px;
+    //color: rgb(247,215,46);
+    //font-size: 1rem;
+    cursor: pointer;
+    //border: 1px solid red;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    background: rgba(255,255,255,0.9);
+}
+.box_menuMainA .el_icons {
+    display: flex;
+    //align-self: end;
+    margin:2px;
+    //margin-right:30px;
+    border-radius: 8px;
+    //border: 1px solid red;
+}
+.box_menuMainA .el_icons .iconOne {
+    display: flex;
+    color: rgb(247,215,46);
+    //color: rgba(7,46,79,0.95);
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    //border: 1px solid red;
+}
+
+.shadowBtnMenu:hover {
+    box-shadow: 1px 1px 1px 1px rgb(247,215,46);
+    border-radius: 18px;
+    //padding: 10px;
+    padding: 2px;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}

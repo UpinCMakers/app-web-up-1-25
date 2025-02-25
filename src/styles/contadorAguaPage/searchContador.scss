@@ -1,0 +1,101 @@
+.box_searchContador {
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 98%;
+    //margin:1px;
+    //height: 100%;
+    //border:1px solid red;
+}
+
+.box_searchContador .tit {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:8px;
+    //border:1px solid rgb(48, 121, 189);
+}
+.box_searchContador .tit .txtTitSearch {
+    display:flex;
+    font-size: 1.4rem;
+    color:bisque;
+    //border:1px solid rgb(48, 121, 189);
+}
+
+.box_searchContador .titBusca {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    width: 70%;
+    height: 60px;
+    font-size: 1.4rem;
+    color:bisque;
+    border-radius: 8px;
+    background: rgba(1,1,1,0.6);
+    border:1px solid rgb(48, 121, 189);
+}
+
+.box_searchContador .lineBtnsChooseSearch {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    //border:1px solid blue;
+}
+.box_searchContador .lineBtnsChooseSearch .btnChooseSearch {
+    display:flex;
+    padding:20px;
+    margin:2px;
+    color:rgb(247,215,46);
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgb(7,46,79);
+    cursor: pointer;
+    //box-shadow: 0px 1px 2px rgb(31,122,177);
+    //border:1px solid rgb(0, 255, 136);
+}
+
+/* SERACH */
+.box_searchContador .lineSearch {
+    display:flex;
+    align-self: center;
+    min-width: 280px;
+    width: 70%;
+    padding: 4px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid rgb(48, 121, 189);
+}
+
+/* painel card contador */
+.box_searchContador .contadorExib {
+    display:flex;
+    align-self: center;
+    width: 90%;
+    justify-content: center;
+    //border:1px solid rgb(48, 121, 189);
+}
+/* ADAPTAÇÃO PARA A PÁGINA CONTADOR DE ÁGUA SET24 */
+.box_searchContador .contadorExib .boxContador {
+    display:flex;
+    flex-wrap: wrap;
+    padding:2px;
+    margin-bottom:4px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px black;
+    background: rgba(7,46,79,0.9);
+    cursor: pointer;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_searchContador .contadorExib .boxContador .elCol_Box {
+    display:flex;
+    flex-direction: column;
+    padding:8px;
+    max-width: 250px;
+    //color:rgb(247,215,46);
+    border:1px solid rgba(1, 0, 8, 0.1);
+}

@@ -1,0 +1,103 @@
+.box_consumidor {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    //border:1px solid red;
+}
+
+.box_consumidor .label {
+    display:flex;
+    color:bisque;
+    font-size: 0.9rem;
+    //border:1px solid red;
+}
+
+.box_consumidor .boxTitGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    min-height: 80px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.6);
+}
+
+.box_consumidor .titGeral {
+    display:flex;
+    align-items: center;
+    padding:8px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color:bisque;
+    //border:1px solid rgb(48, 121, 189);
+}
+
+.box_consumidor .painelGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding:4px;
+    border-radius: 8px;
+    //background: rgba(7,46,79,0.8);
+    //border:1px solid rgb(30, 255, 0);
+}
+
+/* headers da lista */
+.box_consumidor .painelGeralConsumidor .headersClasses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 4px;
+    background: rgba(7,46,79,0.8);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_consumidor .painelGeralConsumidor .headersClasses .hCard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2px;
+    width: 170px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(48, 97, 189);
+}
+
+/* values da lista */
+.box_consumidor .painelGeralConsumidor .boxLi {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+.box_consumidor .painelGeralConsumidor .boxLi .liClasses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    //border:1px solid rgb(158, 189, 48);
+}
+.box_consumidor .painelGeralConsumidor .boxLi .liClasses .hCard {
+    display:flex;
+    justify-content: center;
+    width: 170px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}

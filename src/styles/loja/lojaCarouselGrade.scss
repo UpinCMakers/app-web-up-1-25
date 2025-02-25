@@ -1,0 +1,88 @@
+.box_lojaCarouselGrade {
+    display:flex;
+    justify-content: center;
+    //height:200px; /* Definido no .scrollLineCarousel dinamicamente no front */
+    margin-top:20px;
+    margin-bottom:20px;
+    //border:1px solid red;
+}
+.box_lojaCarouselGrade .lineCarousel {
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    //border:1px solid rgb(68, 0, 255);
+}
+
+/* TíTULO: Em destaque */
+.box_lojaCarouselGrade .lineCarousel .tit_carouselHome {
+    display:flex;
+    //font-weight: bold;
+    font-size: 1.6rem;
+    color:rgb(31,122,177);
+    //color:rgb(247,215,46);
+    //border:1px solid rgb(68, 0, 255);
+}
+
+/* GRADE */
+.box_lojaCarouselGrade .lineCarousel .scrollLineCarousel {
+    display:flex;
+    overflow: hidden; /* Esconder barra scroll horizontal */
+    //border:1px solid rgb(255, 0, 0);
+}
+
+.box_lojaCarouselGrade .lineCarousel .scrollLineCarousel .el_lineCarousel {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width:200px; /* Dimensão da versão LARGE */
+    height:200px; /* Dimensão da versão LARGE */
+
+    margin:1px;
+    border-radius: 2px;
+    //border:1px solid rgb(234, 0, 255);
+}
+
+.box_lojaCarouselGrade .lineCarousel .scrollLineCarousel .el_lineCarousel .img_lineCarousel {
+    display:flex;
+    //max-height: 200px;
+    min-height: 180px;
+    cursor:pointer;
+    background: black;
+    box-shadow: 0px 1px 4px black;
+    //border:1px solid rgb(255, 174, 0);
+}
+.box_lojaCarouselGrade .lineCarousel .scrollLineCarousel .el_lineCarousel .img_lineCarousel .box_action {
+    display:flex;
+    justify-content: center;
+    height:100%;
+    //border:1px solid rgb(255, 174, 0);
+}
+.box_lojaCarouselGrade .lineCarousel .scrollLineCarousel .el_lineCarousel .img_lineCarousel .box_action .btn_action {
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    //border:1px solid rgb(255, 174, 0);
+}
+
+.imgCardSelected {
+    display:flex;
+
+    height:200px;
+
+    //border:1px solid red;
+}
+.content_imgCardSelected {
+    display:flex;
+    align-self: center;
+
+    //position:fixed;
+    position:relative;
+    //position:absolute;
+    top:70px;
+    right:200px;
+    //bottom:50px;
+    z-index: 1; /* Elemento fica acima dos outros */
+
+    border:1px solid red;
+}

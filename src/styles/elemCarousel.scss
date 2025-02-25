@@ -1,0 +1,91 @@
+@font-face {
+    font-family: myFontsX;
+    /*src: url('./../assets/fonts/NotoSans-Regular.ttf');*/
+    /*src: url('./../assets/fonts/Inconsolata.ttf');*/
+    src: url('./../assets/fonts/Noto_Sans/NotoSans-Bold.ttf');
+}
+
+.box_elemCarousel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    min-height: 150px;
+
+    border-radius: 18px;
+
+    //border: 1px solid black;
+    box-shadow: 0px 2px 4px rgba(10, 9, 9);
+    background: rgba(253,253,253,0.4);
+}
+/*.box_elemCarousel .tit_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 15%;
+    width: 100%;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    //border: 1px solid black;
+}*/
+.box_elemCarousel .div_carousel { /*img_carousel*/
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    //max-width: 100px;
+    //max-width: 420px;
+
+    //border: 1px solid black;
+}
+.box_elemCarousel .div_carousel .tit_carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 60px;
+    width: 100%;
+    margin-left: 3px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(7,46,79);
+
+    //border: 1px solid black;
+}
+.box_elemCarousel .div_carousel .desc_carousel {
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    
+    //height: 25%;
+    width: 100%;
+    padding: 4px;
+
+    //color: rgb(31,122,177);
+    color: rgb(7,46,79);
+
+    //border: 1px solid black;
+}
+.box_elemCarousel .div_carousel .desc_carousel .txt_desc_carousel {
+    display: flex;
+
+    max-width: 350px;
+
+    margin: 10px;
+    margin-left: 20px;
+
+    //border: 1px solid black;
+}
+.box_elemCarousel .div_carousel .lastLine_carousel {
+    display: flex;
+    justify-content: center;
+    
+    //height: 10%;
+    width: 100%;
+
+    //border: 1px solid black;
+}

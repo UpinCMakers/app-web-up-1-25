@@ -1,0 +1,32 @@
+.box_loja {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 350px; /* NIVELADOR DE ESPAÇO DA PA´GINA NAS VERSÕES SMALL !!! */
+    //background: linear-gradient(1deg, rgb(20, 40, 53), rgb(43, 32, 32));
+    background: linear-gradient(1deg, #b8b8b8, rgb(254, 254, 254));
+    //border: 1px solid green;
+}
+/*
+.box_loja .logo_movel {
+    display:flex;
+    //border: 1px solid green;
+}
+.box_loja .logo_movel_el {
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left:21%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(10deg, whitesmoke, #b8b8b8, #b8b8b8);
+    box-shadow: 0px 2px 8px 0px black;
+    //border: 1px solid green;
+}
+.box_loja .logo_movel_el .img_ecommerce {
+    display:flex;
+    max-height: 60px;
+    max-width: 160px;
+    //border:1px solid red;
+}
+*/

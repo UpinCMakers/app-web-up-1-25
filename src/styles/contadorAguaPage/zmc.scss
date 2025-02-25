@@ -1,0 +1,140 @@
+.box_zmc {
+    display:flex;
+    flex-direction: column;
+    padding:2px;
+    //border:1px solid red;
+}
+
+.box_zmc .painel {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:4px;
+    //border:1px solid red;
+}
+
+/* MAPA */
+.box_zmc .painel .painelMap {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2px;
+    width: 24%;
+    min-width: 260px;
+    //border:1px solid red;
+}
+.box_zmc .painel .painelMap .label {
+    display:flex;
+    color:bisque;
+    font-size: 0.9rem;
+    //border:1px solid red;
+}
+.box_zmc .painel .painelMap .boxCoord {
+    display:flex;
+    flex-direction: column;
+    //margin:2px;
+    width: 260px;
+    height: 260px;
+    border:1px solid rgba(7,46,79,0.8);
+}
+.box_zmc .painel .painelMap .boxCoord .aux_boxCoord {
+    display:flex;
+    z-index:10;
+    width: 260px;
+    height: 16px;
+    margin-top:-16px;
+    background: rgba(7,46,79,1);
+    //border:1px solid rgba(7,46,79,0.8);
+}
+.box_zmc .painel .painelMap .exibCoord {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+    border:1px solid rgba(78, 79, 7, 0.8);
+}
+
+/* SUBpainel */
+.box_zmc .painel .subPainel {
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    min-width: 280px;
+    //border:1px solid rgb(187, 255, 0);
+}
+
+.box_zmc .painel .subPainel .label {
+    display:flex;
+    color:bisque;
+    font-size: 0.9rem;
+    //border:1px solid red;
+}
+
+.box_zmc .painel .subPainel .boxTitGeral {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    height: 40px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.6);
+}
+
+.box_zmc .painel .subPainel .boxTitGeralMain {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    min-height: 80px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.6);
+}
+
+.box_zmc .painel .subPainel .painelGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+.box_zmc .painel .subPainel .painelGeralConsumidor .listaVazia {
+    display:flex;
+    //justify-content: center;
+    //padding:6px;
+    width: 100%;
+    margin-bottom: 4px;
+    //color:rgba(7,46,79,0.8);
+    color:rgb(247,215,46);
+    font-size: 0.9rem;
+    //border:1px solid rgb(0, 162, 255);
+}
+
+/* quadro geral */
+.box_zmc .painelSelect {
+    display:flex;
+    //flex-wrap: wrap;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+.box_zmc .painelSelect .boxT {
+    display:flex;
+    justify-content: center;
+    padding:6px;
+    width: 100%;
+    margin-bottom: 4px;
+    //font-size: 1.2rem;
+    font-weight: 300;
+    color:bisque;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border:1px solid rgb(0, 162, 255);
+    background: rgba(7,46,79,0.8);
+}

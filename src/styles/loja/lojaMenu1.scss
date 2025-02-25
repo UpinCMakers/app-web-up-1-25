@@ -1,0 +1,29 @@
+.box_lojaMenu1 {
+    display:flex;
+    height:40px;
+    //border: 1px solid blue;
+    //background: rgba(7,46,79,0.9);
+    background: rgb(31,122,177);
+    //background: linear-gradient(1deg, rgb(31,122,177), rgb(255, 255, 255));
+    box-shadow: 0px 1px 10px rgba(247,215,46,1);
+    //box-shadow: 0px 1px 10px rgb(3, 3, 3);
+}
+.box_lojaMenu1 .iconMenu1 {
+    display:flex;
+    margin:4px;
+    color: rgb(247,215,46);
+    //border:1px solid red;
+}
+.box_lojaMenu1 .tit_menu1 {
+    display:flex;
+    align-items: center;
+    margin:4px;
+    color: rgba(7,46,79,0.9);
+    //border:1px solid red;
+}
+.box_lojaMenu1 .img_menu1 {
+    display:flex;
+    width: 50px;
+    //margin:4px;
+    //border:1px solid red;
+}

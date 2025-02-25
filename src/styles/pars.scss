@@ -1,0 +1,13 @@
+.par_el {
+    display: flex;
+    flex-direction: column;
+}
+.par_el .par_tit {
+    display: flex;
+    //border: 1px solid red;
+}
+.par_el .par_img {
+    display: flex;
+    width: 100%;
+    //border: 1px solid red;
+}

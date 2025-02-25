@@ -1,0 +1,70 @@
+.box_lojaMenu2 {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height:200px;
+    //border: 1px solid rgb(255, 0, 55);
+    background: rgba(7,46,79,0.9);
+    //background: rgb(31,122,177);
+    //background: linear-gradient(1deg, rgba(7,46,79,0.9),rgb(31,122,177), rgb(255, 255, 255));
+    box-shadow: 0px 1px 10px rgba(247,215,46,1);
+}
+.box_lojaMenu2 .el_menu2 {
+    display:flex;
+    width: 25%;
+    height:80px;
+    cursor:pointer;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(255, 0, 221);
+}
+
+/* TÍTULO BTN VOLTAR */
+.box_lojaMenu2 .el_menu2 .el_tit_btn_voltar {
+    display:flex;
+    align-self: center;
+    font-weight: 100;
+    font-size: 0.8rem;
+    //border:1px solid rgb(255, 0, 221);
+}
+
+/* IMAGENS CENTRAIS */
+.box_lojaMenu2 .el_menu2 .img_menu2_upinc {
+    display:flex;
+    align-self: center;
+    margin-right: -12px;
+    margin-left: 12px;
+    height:60px;
+    min-width:60px;
+    max-width: 20%;
+    //border:1px solid red;
+}
+.box_lojaMenu2 .el_menu2 .img_menu2_commerce {
+    display:flex;
+    max-width: 80%;
+    //border:1px solid rgb(0, 255, 42);
+}
+
+/* COLUNA DE PESQUISA */
+.box_lojaMenu2 .el_menu2 .col_search_menu2 {
+    display:flex;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    //flex-direction: column;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(255, 0, 21);
+}
+.box_lojaMenu2 .el_menu2 .col_search_menu2 .icon_el_search {
+    display:flex;
+    align-items: flex-end;
+    width: 20%;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(0, 255, 149);
+}
+.box_lojaMenu2 .el_menu2 .col_search_menu2 .el_search {
+    display:flex;
+    width: 80%;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(0, 255, 149);
+}

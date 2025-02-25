@@ -1,0 +1,27 @@
+.box_payConfirmMet {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    //border:1px solid red;
+}
+.box_payConfirmMet .txt_tit {
+    display:flex;
+    max-width: 250px;
+    font-size: 0.7rem;
+    //border:1px solid red;
+}
+.box_payConfirmMet .box_selectRota {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid red;
+}
+.box_payConfirmMet .box_selectRota .cardRota {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.3);
+    cursor: pointer;
+    //border:1px solid red;
+}

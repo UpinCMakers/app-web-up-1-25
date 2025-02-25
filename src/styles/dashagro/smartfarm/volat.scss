@@ -1,0 +1,49 @@
+.box_volat {
+    display:flex;
+    width: 90%;
+    margin-top: 10px;
+    max-height: 400px;
+    border-radius: 8px;
+    //background-color: rgba(255,255,255,0.3);
+    //border:1px solid red;
+}
+
+/*  */
+.box_volat .painel_volat {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin:8px;
+    //border:1px solid red;
+}
+.box_volat .painel_volat .tit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    margin-bottom: 4px;
+    //color:#1F7AB1;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.3);
+    //border:1px solid rgb(44, 167, 91);
+}
+
+.box_volat .painel_volat .display_volat {
+    display:flex;
+    justify-content: center; /* retirar após habilitar componente GRID */
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+.box_volat .painel_volat .display_volat .tmp_aviso {
+    display:flex;
+    align-items: center;
+    min-height: 50px;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}

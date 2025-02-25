@@ -1,0 +1,60 @@
+.box_menuSuperiorDashAgro {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:4%; /* 8% da distribuição height do componente MainDashAgro */
+    max-height: 40px;
+    min-height: 20px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(1,1,1,1);
+    //border:1px solid red;
+}
+.box_menuSuperiorDashAgro .el_menu {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 40px;
+    margin: 2%;
+    cursor:pointer;
+    //border:1px solid red;
+}
+.box_menuSuperiorDashAgro .el_menu .icon_menu_backAgro {
+    display:flex;
+    max-height: 100px;
+    width: 60px;
+    //margin-top:15px;
+    border-radius: 20px;
+    background-color: white;
+    //border:1px solid red;
+}
+.box_menuSuperiorDashAgro .el_menu .el_img_logo {
+    display:flex;
+    height: 60px;
+    width: 60px;
+    margin-top:6px;
+    border-radius: 50px;
+    //border:1px solid red;
+}
+.box_menuSuperiorDashAgro .el_menu .txt_version {
+    display:flex;
+    width: 60px;
+    font-size: 0.6rem;
+    //border:1px solid red;
+}
+/*.box_menuSuperiorDashAgro .el_menu .txt_img_logo {
+    display:flex;
+    margin-top:10px;
+    margin-top:5px;
+    margin-bottom:-10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    //border:1px solid red;
+}
+.box_menuSuperiorDashAgro .el_menu .el_img_logo {
+    display:flex;
+    max-height: 100px;
+    max-width: 100px;
+    margin-top:10px;
+    //border:1px solid red;
+}*/

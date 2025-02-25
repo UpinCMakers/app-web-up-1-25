@@ -1,0 +1,34 @@
+.box_makersMenu {
+    display: flex;
+
+    height: 70px;
+    width: 100%;
+
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 2px 4px rgb(247,215,46);
+    //border: 1px solid blue;
+}
+.box_makersMenu .el_logo_makers {
+    display: flex;
+    align-self: center;
+
+    width: 60px;
+    height: 50px;
+
+    //border: 1px solid blue;
+}
+.box_makersMenu .el_logo_makers .el_img_logo_makers {
+    display: flex;
+
+    //width: 100px;
+
+    //border: 1px solid blue;
+}
+.box_makersMenu .el_tit_makers {
+    display: flex;
+    align-self: center;
+
+    margin-left: 2px;
+
+    //border: 1px solid blue;
+}

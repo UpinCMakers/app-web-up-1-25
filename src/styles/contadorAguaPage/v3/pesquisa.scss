@@ -1,0 +1,135 @@
+.box_classes {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    //border:1px solid red;
+}
+
+.box_classes .label {
+    display:flex;
+    color:bisque;
+    font-size: 0.9rem;
+    //border:1px solid red;
+}
+
+.box_classes .titGeral {
+    display:flex;
+    align-items: center;
+    padding:8px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color:bisque;
+    //border:1px solid rgb(48, 121, 189);
+}
+
+.box_classes .btnResetSearch {
+    display:flex;
+    align-self: center;
+    justify-content: flex-end;
+    width:99%;
+    height: 30px;
+    //border:1px solid rgb(189, 187, 48);
+}
+
+.box_classes .painelGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+
+.box_classes .painelGeralConsumidor .boxTit {
+    display:flex;
+    justify-content: center;
+    padding:6px;
+    width: 100%;
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color:bisque;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border:1px solid rgb(0, 162, 255);
+    background: rgba(7,46,79,0.8);
+}
+
+/* headers da lista */
+.box_classes .painelGeralConsumidor .headersClasses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 4px;
+    background: rgba(7,46,79,0.8);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_classes .painelGeralConsumidor .headersClasses .hCard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2px;
+    width: 150px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}
+
+/* lista de contadores */
+.box_classes .painelGeralConsumidor .boxLi {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+.box_classes .painelGeralConsumidor .boxLi .liClasses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_classes .painelGeralConsumidor .boxLi .liClasses .cCard {
+    display:flex;
+    justify-content: center;
+    width: 150px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}
+
+/**/
+.box_classes .painelGeralConsumidor .searchBar {
+    display:flex;
+    padding:6px;
+    margin:2px;
+    max-height: 70px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.4);
+    //border:1px solid rgb(189, 48, 90);
+}
+.box_classes .painelGeralConsumidor .searchBar .el_search {
+    display:flex;
+    //width: 100% !important;
+    //max-width: 100% !important;
+    //box-sizing: border-box;
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_classes .painelGeralConsumidor .searchBar .el_icon_search {
+    display:flex;
+    align-self: center;
+    //border:1px solid rgb(184, 48, 189);
+}

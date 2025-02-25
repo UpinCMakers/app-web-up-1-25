@@ -1,0 +1,17 @@
+.box_makersLineE {
+    display: flex;
+    justify-content: center;
+
+    //border: 1px solid red;
+}
+.box_makersLineE .painel_content_lineE {
+    display: flex;
+    justify-content: space-between;
+
+    width:90%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    //border: 1px solid red;
+}

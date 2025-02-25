@@ -1,0 +1,29 @@
+.box_suporteLoja {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    //border:1px solid red;
+}
+.box_suporteLoja .tit_suporte {
+    display:flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //border:1px solid red;
+}
+.box_suporteLoja .tit_suporte .icon_tit {
+    display:flex;
+    margin-top:40px;
+    margin-bottom: 10px;
+    color:rgb(31,122,177);
+    //border:1px solid red;
+}
+.box_suporteLoja .tit_suporte .el_tit {
+    display:flex;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    //border:1px solid red;
+}

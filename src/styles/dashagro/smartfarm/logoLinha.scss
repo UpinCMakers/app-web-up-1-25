@@ -1,0 +1,13 @@
+.box_logoLinha {
+    display:flex;
+    justify-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    //border:1px solid blue;
+}
+.box_logoLinha .el_img_logoLinha {
+    display:flex;
+    max-width: 100px;
+    max-height: 100px;
+    //border:1px solid rgb(121, 41, 31);
+}

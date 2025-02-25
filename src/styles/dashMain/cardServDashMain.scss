@@ -1,0 +1,40 @@
+.box_cardServDashMain {
+    display:flex;
+    flex-direction: column;
+    width: 220px;
+    margin:4px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px black;
+    cursor: pointer;
+    //border:1px solid red;
+}
+
+.box_cardServDashMain .cardDashImg {
+    display:flex;
+    height: 180px;
+    //width: 180px;
+    min-height: 200px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    //border:1px solid red;
+}
+
+.box_cardServDashMain .cardDashTit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:4px;
+    height: 100%;
+    font-size: 1.2rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: rgba(255,255,255,1);
+    //border:1px solid red;
+}
+.box_cardServDashMain .cardDashTit .cardDashElTit {
+    display:flex;
+    margin: 2px;
+    //border:1px solid rgb(119, 0, 255);
+}

@@ -1,0 +1,55 @@
+.box_makersNoticeCardA {
+    display: flex;
+    flex-direction: column;
+
+    width: 18%; /* LARGURA DO CARD DE NOTICIAS TIPO A */
+    min-height: 250px; /* ALTURA MÍNIMA DO CARD TIPO A*/
+
+    cursor: pointer;
+
+    border-radius: 10px;
+    //box-shadow: 0px 1px 2px rgb(255, 255, 255);
+    box-shadow: 0px -2px 6px rgba(255,255,255,1);
+    //border: 1px solid rgb(38, 0, 255);
+}
+.box_makersNoticeCardA .img_NoticeCardA {
+    display: flex;
+
+    height: 100px; /* ALTURA DA IMAGEM */
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    //border: 1px solid rgb(255, 0, 21);
+}
+.box_makersNoticeCardA .tit_NoticeCardA {
+    display: flex;
+    justify-content: center;
+
+    margin: 2px;
+
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: rgba(255,255,255);
+
+    //border: 1px solid rgb(255, 0, 21);
+}
+.box_makersNoticeCardA .txt_NoticeCardA {
+    display: flex;
+
+    margin: 2px;
+
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(31,122,177);
+
+    //border: 1px solid rgb(255, 0, 21);
+}
+.box_makersNoticeCardA .action_NoticeCardA {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 2px;
+
+    color:rgba(255,255,255,0.5);
+    //border: 1px solid rgb(255, 0, 21);
+}

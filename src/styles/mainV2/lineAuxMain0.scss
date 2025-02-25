@@ -1,0 +1,14 @@
+.box_lineAuxMain0 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    //flex-wrap: wrap-reverse; /* v1 até 30/08/2024 */
+    flex-wrap: wrap;
+    width: 80%;
+    min-height: 500px;
+    //padding:4px;
+    border-radius: 16px;
+    //background: #B2B2B2;
+    background: #B2B2B2;
+    //border:1px solid red;
+}

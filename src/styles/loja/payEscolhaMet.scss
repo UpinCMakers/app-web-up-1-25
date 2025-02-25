@@ -1,0 +1,39 @@
+.box_payEscolhaMet {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    //border: 1px solid rgb(121, 38, 38);
+}
+.box_payEscolhaMet .super_tit {
+    display:flex;
+    margin: 10px;
+    font-size: 1.6rem;
+    //border: 1px solid red;
+}
+.box_payEscolhaMet .box_selectMet {
+    display:flex;
+    justify-content: space-between;
+    min-width: 280px;
+    min-height: 140px;
+    //border: 1px solid red;
+}
+.box_payEscolhaMet .box_selectMet .cardMet {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+    width: 45%;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0px 1px 2px #4A93BF;
+    cursor: pointer;
+    //border: 1px solid red;
+}
+.box_payEscolhaMet .box_selectMet .cardMet .tit {
+    display:flex;
+    margin-top:2px;
+    //border: 1px solid red;
+}

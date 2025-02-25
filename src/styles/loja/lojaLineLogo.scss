@@ -1,0 +1,25 @@
+.box_lojaLineLogo {
+    display:flex;
+    justify-content: center;
+    max-height: 200px;
+    //border:1px solid red;
+}
+.box_lojaLineLogo .el_logo {
+    display:flex;
+    align-items: center;
+    min-height: 200px;
+    //border:1px solid rgb(38, 0, 255);
+}
+.box_lojaLineLogo .el_logo .img_upinc {
+    display:flex;
+    max-height: 100px;
+    max-width: 100px;
+    margin-right:-16px;
+    //border:1px solid red;
+}
+.box_lojaLineLogo .el_logo .img_ecommerce {
+    display:flex;
+    max-height: 100px;
+    max-width: 160px;
+    //border:1px solid red;
+}

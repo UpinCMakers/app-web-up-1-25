@@ -1,0 +1,196 @@
+.box_estufaPainel {
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    //border:1px solid rgb(0, 68, 255);
+}
+/* títulos large e small */
+.box_estufaPainel .titEstufa {
+    display:flex;
+    align-self: center;
+    padding:4px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    //border:1px solid red;
+}
+.box_estufaPainel .titEstufa .iconTit {
+    display:flex;
+    margin-top:-2px;
+    margin-right:10px;
+    color:rgb(31,122,177);
+    //border:1px solid red;
+}
+.box_estufaPainel .titEstufa_small {
+    display:flex;
+    align-self: center;
+    padding:4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    //border:1px solid red;
+}
+/* BOX DO RESUMO DA PLANTA */
+.box_estufaPainel .box_carac {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 200px;
+    margin-bottom: 30px;
+    //border:1px solid rgb(51, 255, 0);
+}
+
+/* PAINEL ICONS */
+.box_estufaPainel .box_carac .info_icons {
+    display:flex;
+    flex-direction: column;
+    //align-items: flex-end;
+    
+    //margin-bottom: 10px;
+    //flex-wrap: wrap;
+    width: 48%;
+    min-width: 180px; /* preenchimento versão small */
+    //border:1px solid rgb(98, 0, 255);
+}
+.box_estufaPainel .box_carac .info_icons .box_tit_icons {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 178px; /* preenchimento versão small */
+    height: 20px;
+    margin-bottom: 4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 0.8rem;
+    background-color: rgb(31,122,177);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid red;
+}
+.box_estufaPainel .box_carac .info_icons .box_icons {
+    display:flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    //width: 50%;
+    min-width: 180px; /* preenchimento versão small */
+    //border:1px solid red;
+}
+.box_estufaPainel .box_carac .info_icons .box_icons .el_carac {
+    display:flex;
+    flex-direction: column;
+    min-width: 85px;
+    margin:1px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid red;
+}
+.box_estufaPainel .box_carac .info_icons .box_icons .el_carac .icons {
+    display:flex;
+    justify-content: flex-end;
+    //border:1px solid rgb(89, 0, 255);
+}
+.box_estufaPainel .box_carac .info_icons .box_icons .el_carac .txt_carac {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+.box_estufaPainel .box_carac .info_icons .box_icons .el_carac .txt_valor {
+    display:flex;
+    align-items: center;
+    padding: 2px;
+    //border:1px solid red;
+}
+
+/* PAINEL TEXTOS */
+.box_estufaPainel .box_carac .info_textos {
+    display:flex;
+    flex-direction: column;
+    //align-items: flex-end;
+    //flex-wrap: wrap;
+    width: 50%;
+    min-height: 100px;
+    min-width: 174px; /* preenchimento versão small */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(1,1,1,0.4);
+    //background-color: rgba(255,255,255,0.8);
+    //background-color: rgba(255,255,255,0.3);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid rgb(98, 0, 255);
+}
+.box_estufaPainel .box_carac .info_textos .painel_i_t {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    min-height: 20px;
+    width: 100%;
+    font-size: 0.8rem;
+    //background-color: rgba(1,1,1,0.4); /* cor de fundo msg */
+    background-color: rgb(31,122,177);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid rgb(98, 0, 255);
+}
+.box_estufaPainel .box_carac .info_textos .painel_msg {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    //height: 100%;
+    padding:4px;
+    //border:1px solid rgb(98, 0, 255);
+}
+.box_estufaPainel .box_carac .info_textos .painel_msg .el_msg {
+    display:flex;
+    padding:6px;
+    margin:2px;
+    font-size: 0.8rem;
+    color:rgb(247,215,46);
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: rgba(1,1,1,0.8);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid rgb(98, 0, 255);
+}
+.box_estufaPainel .box_carac .info_textos .painel_msg .btn_to_hist_dialog {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+    margin:2px;
+    margin-top:10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid rgb(98, 0, 255);
+}
+
+/*.box_estufaPainel .box_carac .imgIcon {
+    display:flex;
+    border:1px solid red;
+}*/
+
+/* BOX DO GRÁFICO */
+.box_estufaPainel .box_chart {
+    display:flex;
+    flex-direction: column;
+    //flex-wrap: wrap;
+    padding:4px;
+    border-radius: 8px;
+    background-color: rgba(1,1,1,0.4);
+    box-shadow: 0px 1px 2px rgba(1,1,1,1);
+    //border:1px solid red;
+}

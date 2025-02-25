@@ -1,0 +1,88 @@
+.box_painelExpande {
+    display:flex;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor {
+    display:flex;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor .cardExpansor {
+    display:flex;
+    //border:1px solid rgb(25, 0, 255);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor {
+    display:flex;
+    flex-direction: column;
+    background:rgba(255,255,255,0.6);
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .titCardExpansor {
+    display:flex;
+    color:#092D4F;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor {
+    display:flex;
+    padding:2px;
+    font-size: 0.9rem;
+    //border:1px solid rgb(255, 102, 0);
+}
+
+/* headers da lista */
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor .linhaTitResp {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 4px;
+    background: rgba(7,46,79,0.8);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor .linhaTitResp .hCard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2px;
+    width: 120px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}
+
+/* respostas da lista */
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor .linhaResp {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor .linhaResp .subLiResp {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_painelExpande .painelCardExpansor .cardExpansor .el_cardExpansor .respCardExpansor .linhaResp .subLiResp .rCard {
+    display:flex;
+    justify-content: center;
+    width: 120px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}

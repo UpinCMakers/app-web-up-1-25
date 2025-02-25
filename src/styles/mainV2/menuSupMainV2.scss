@@ -1,0 +1,84 @@
+.box_menuSupMain {
+    display:flex;
+    justify-content: center;
+    //height: 60px; /* V1 até 27/08/2024 */
+    height: 65px;
+    width: 100%;
+    background-color: #092D4F;
+    //box-shadow: 0px 1px 2px rgba(247,215,46,1); /* V1 */
+    box-shadow: 0px 2px 4px black;
+    //border:1px solid red;
+
+    z-index: 2;
+}
+.box_menuSupMain .barra_util {
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    //border:1px solid red;
+}
+
+/* IMG LOGO */
+.box_menuSupMain .barra_util .logo_menuSupMain {
+    display:flex;
+    width: 150px;
+    cursor: pointer;
+    //border:1px solid rgb(0, 255, 106);
+}
+.box_menuSupMain .barra_util .logo_menuSupMain .el_img {
+    display:flex;
+    width: 100%;
+    //box-shadow: 0px 1px 2px black;
+    //box-shadow: 0px 1px 2px rgb(247, 245, 245);
+    //background: linear-gradient(10deg, whitesmoke, #b8b8b8, #b8b8b8);
+    //border:1px solid red;
+}
+
+/* ICON MENU LARGE*/
+.box_menuSupMain .barra_util .menuLarge {
+    display:flex;
+    align-items: center;
+    //width: 75%; /* Da direita para a esquerda */
+    //border:1px solid rgb(0, 255, 106);
+}
+.box_menuSupMain .barra_util .menuLarge .btnMenuLarge {
+    display:flex;
+    align-items: center;
+    //margin:2px;
+    padding:16px;
+    height: 100%;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0,0.2);
+}
+
+/* ICON MENU SMALL*/
+.box_menuSupMain .barra_util .icon_menuSupMain {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin:2px;
+    height: 80%;
+    //color:rgba(247,215,46,1);
+    cursor: pointer;
+    border-radius: 8px;
+    border:1px solid rgb(31,122,177);
+    box-shadow: 0px 1px 2px rgb(31,122,177);
+}
+
+/* ICON user (only large) */
+.box_menuSupMain .barra_util .btnUser {
+    display:flex;
+    align-items: center;
+    //width: 75%; /* Da direita para a esquerda */
+    //border:1px solid rgb(0, 255, 106);
+}
+.box_menuSupMain .barra_util .btnUser .btnMenuLarge {
+    display:flex;
+    align-items: center;
+    //margin:2px;
+    padding:16px;
+    height: 100%;
+    cursor: pointer;
+    border:1px solid rgba(0, 0, 0,0.2);
+}

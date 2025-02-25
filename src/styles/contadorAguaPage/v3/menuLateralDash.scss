@@ -1,0 +1,44 @@
+.box_menuLateralDash {
+    display:flex;
+    flex-direction: column;
+    min-height: 500px;
+    //width: 25%; /* dinamico */
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: rgba(255,255,255,0.7);
+    //border:1px solid red;
+}
+.box_menuLateralDash .linhaIconHide {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    //border:1px solid red;
+}
+
+.box_menuLateralDash .tit {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    min-height: 100px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+
+.box_menuLateralDash .painelBtns {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid red;
+}
+.box_menuLateralDash .painelBtns .lineBtn {
+    display:flex;
+    justify-content: space-between;
+    padding: 4px;
+    width: 100%;
+    cursor: pointer;
+    border:1px solid rgba(1, 0, 7,0.2);
+}

@@ -1,0 +1,41 @@
+.box_chatParamFarm {
+    display:flex;
+    width: 90%;
+    margin-top: 10px;
+    max-height: 400px;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+
+/*  */
+.box_chatParamFarm  .painel_chatParamFarm {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    //margin:8px;
+    //border:1px solid red;
+}
+.box_chatParamFarm  .painel_chatParamFarm .display_tit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.3);
+    //border:1px solid red;
+}
+.box_chatParamFarm  .painel_chatParamFarm .display_chatParamFarm {
+    display:flex;
+    width: 100%;
+    color:#1F7AB1;
+    font-weight: bold;
+    border-radius: 8px;
+    //background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}

@@ -1,0 +1,53 @@
+.box_txtLinhaMainV2 {
+    display: flex;
+    //align-self: center;
+    //height: 200px;
+    width: 100%;
+    margin-top: 260px;
+    //border:1px solid blue;
+    
+    //position: fixed;
+    position: absolute;
+    z-index: 3;
+}
+
+.box_txtLinhaMainV2 .painel_el_txt {
+    display: flex;
+    //justify-content: center;
+    flex-wrap: wrap;
+    padding:6px;
+    width: 28%;
+    min-width: 250px;
+    margin-left:10%;
+    border-radius: 8px;
+    background-color: rgba(1,1,1,0.4);
+    //border:1px solid rgb(0, 255, 34);
+}
+
+.box_txtLinhaMainV2 .painel_el_txt .box_el_txt {
+    display: flex;
+    margin-right:8px;
+    //margin:1px;
+    //color:rgba(247,215,46,1);
+    //color:rgb(31,122,177);
+    color:whitesmoke;
+    font-size: 2rem;
+    font-weight: 400;
+    //border:1px solid rgb(0, 255, 34);
+}
+.box_txtLinhaMainV2 .painel_el_txt .box_el_txt .el_txt {
+    display: flex;
+    //border:1px solid rgb(255, 0, 85);
+}
+
+.box_txtLinhaMainV2 .painel_el_txt .saibaMais {
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    border-radius: 12px;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    border:1px solid black;
+}

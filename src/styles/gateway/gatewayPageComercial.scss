@@ -1,0 +1,102 @@
+.box_gatewayPageComercial {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    //background: rgba(7,46,79,0.4);
+    //border:1px solid red;
+}
+
+.box_gatewayPageComercial .titGwComercial {
+    display: flex;
+    flex-direction: column;
+    //border:1px solid red;
+}
+.box_gatewayPageComercial .titGwComercial .iconTitGw {
+    display: flex;
+    align-self: center;
+    width: 50%;
+    color:rgb(31,122,177);
+    //border:1px solid rgb(0, 255, 115);
+}
+.box_gatewayPageComercial .titGwComercial .tit {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    //border:1px solid rgb(0, 255, 115);
+}
+.box_gatewayPageComercial .titGwComercial .subTit {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_gatewayPageComercial .titGwComercial .subTit .elSubTit {
+    display: flex;
+    margin-right:6px;
+    //border:1px solid rgb(76, 0, 255);
+}
+
+/* PAINEL */
+.box_gatewayPageComercial .painelTiposGw {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    border-radius:16px;
+    box-shadow: 0px 1px 2px rgb(7,46,79);
+    background: #B2B2B2;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_gatewayPageComercial .painelTiposGw .boxCircTipoGw {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    width: 240px;
+    //background: rgba(255,255,255,0.2);
+    //border:1px solid rgb(255, 0, 119);
+}
+.box_gatewayPageComercial .painelTiposGw .boxCircTipoGw .titCircGw {
+    display: flex;
+    //flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color:rgba(7,46,79,0.8);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_gatewayPageComercial .painelTiposGw .boxCircTipoGw .titCircGw .elTitCircGw {
+    display: flex;
+    margin-right: 4px;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_gatewayPageComercial .painelTiposGw .boxCircTipoGw .circGw {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0px 1px 2px rgba(7,46,79,1);
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_gatewayPageComercial .painelTiposGw .boxCircTipoGw .txtCircGw {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //justify-content: space-between;
+    width: 85%;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_gatewayPageComercial .painelTiposGw .boxCircTipoGw .txtCircGw .eltxtCircGw {
+    display: flex;
+    margin-right:4px;
+    //color:rgb(31,122,177);
+    font-weight: bolder;
+    font-size: 0.9rem;
+    //border:1px solid rgb(0, 255, 136);
+}

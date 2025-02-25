@@ -1,0 +1,142 @@
+.box_payMet {
+    display:flex;
+    //justify-content: space-between;
+    justify-content: center;
+    //align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    padding:10px;
+    //border:1px solid blue;
+}
+
+/* ---------------------------- LADO A -------------------------------------- */
+.box_payMet .lado_a {
+    display:flex;
+    flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+    width: 48%;
+    min-width: 280px;
+    margin:2px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px #4A93BF;
+    background-color: rgba(255,255,255,0.5);
+    //border:1px solid blue;
+}
+.box_payMet .lado_a .tit {
+    display:flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 90%;
+    margin-top: 10px;
+    padding:2px;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    background-color:#F7D72E;
+    //border:1px solid blue;
+}
+.box_payMet .lado_a .tit .editPay {
+    display:flex;
+    align-self: center;
+    padding:4px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    cursor:pointer;
+    border:2px solid #4A93BF;
+}
+.box_payMet .lado_a .box_infoCl {
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10px;
+    width:90%;
+    //height: 100%;
+    //border:1px solid rgb(255, 0, 64);
+}
+.box_payMet .lado_a .box_infoCl .line_infoCl {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    //border:1px solid rgb(255, 0, 64);
+}
+.box_payMet .lado_a .box_infoCl .line_infoCl .el_line_a {
+    display:flex;
+    font-size: 0.9rem;
+    font-weight: bold;
+    //border:1px solid rgb(255, 0, 64);
+}
+.box_payMet .lado_a .box_infoCl .line_infoCl .el_line_b {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid rgb(255, 0, 64);
+}
+
+/* ---------------------------- LADO B -------------------------------------- */
+.box_payMet .lado_b {
+    display:flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    width: 48%;
+    min-width: 280px;
+    margin:2px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px #4A93BF;
+    background-color: rgba(255,255,255,0.5);
+    //border:1px solid blue;
+}
+
+/* PAY FASE 1 */
+.box_payMet .lado_b .btnConfirmInfoPay {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    max-width: 250px;
+    padding:2px;
+    //border:1px solid rgb(255, 0, 64);
+}
+.box_payMet .lado_b .txt {
+    display:flex;
+    font-size: 0.6rem;
+    //border:1px solid rgb(255, 0, 64);
+}
+
+/* PAY FASE 2 */
+.box_payMet .lado_b .painelRef {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    //width: 90%;
+    max-width: 250px;
+    padding:2px;
+    //border:1px solid rgb(17, 0, 255);
+}
+.box_payMet .lado_b .painelRef .box_info_ref {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    //border:1px solid rgb(255, 0, 64);
+}
+.box_payMet .lado_b .painelRef .box_info_ref .lineInfo {
+    display:flex;
+    justify-content: space-between;
+    //width: 100%;
+    //border:1px solid rgb(255, 0, 64);
+}
+.box_payMet .lado_b .painelRef .txt2 {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+    font-size: 0.7rem;
+    //border:1px solid rgb(0, 17, 255);
+}
+.box_payMet .lado_b .painelRef .txt2 .elfor {
+    display:flex;
+    margin:1px;
+    //border:1px solid rgb(0, 17, 255);
+}

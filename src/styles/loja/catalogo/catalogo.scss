@@ -1,0 +1,29 @@
+.box_catalogo {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    //border:1px solid red;
+}
+/* TITULO PAGINA */
+.box_catalogo .tit_c {
+    display:flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //border:1px solid red;
+}
+.box_catalogo .tit_c .icon_tit {
+    display:flex;
+    margin-top:40px;
+    margin-bottom: 10px;
+    color:rgb(31,122,177);
+    //border:1px solid red;
+}
+.box_catalogo .tit_c .el_tit {
+    display:flex;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    //border:1px solid red;
+}

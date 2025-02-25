@@ -1,0 +1,33 @@
+.box_targetSearchCA {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    //border:1px solid red;
+}
+
+.box_targetSearchCA .label {
+    display:flex;
+    color:bisque;
+    font-size: 0.9rem;
+    //border:1px solid red;
+}
+
+.box_targetSearchCA .boxTitGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    min-height: 80px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.6);
+}
+
+/* PAINEL EXPANDE */
+.box_targetSearchCA .box_expande {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid rgb(55, 0, 255);
+}

@@ -1,0 +1,243 @@
+.box_clMain {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:10px;
+    //border:1px solid red;
+}
+
+/* LARGE ****************************************************/
+
+/* USER INFO MAIN */
+.box_clMain .col_info_user_large {
+    display:flex;
+    width: 50%;
+    padding:2px;
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 250px;
+    padding:4px;
+    border-radius: 8px;
+    background-color: rgba(1,1,1,0.1);
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info .line_init {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    margin:6px;
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info .line_init .name_user {
+    display:flex;
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info .line_info {
+    display:flex;
+    min-height: 80px;
+    padding:2px;
+    margin:6px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.2);
+    //box-shadow: 0px 2px 2px rgb(247,215,46);
+    box-shadow: 0px 2px 2px rgb(1,1,1);
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info .line_menu_edit {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 40px;
+    margin:6px;
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info .line_menu_edit .btnMenuEdit {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    //border:1px solid red;
+}
+.box_clMain .col_info_user_large .painel_info .line_menu_edit .box_confirm_msg {
+    display:flex;
+    justify-content: center;
+    padding:2px;
+    font-size:0.7rem;
+    border-radius: 4px;
+    background-color: #4B94C0;
+    //border:1px solid red;
+}
+
+/* IMAGEM */
+.box_clMain .col_info_user_large .painel_info .line_menu_edit .img_clMain {
+    display:flex;
+    height: 160px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+
+/* USER HIST */
+.box_clMain .col_hist_large {
+    display:flex;
+    width: 50%;
+    padding:2px;
+    //border:1px solid rgb(47, 0, 255);
+}
+.box_clMain .col_hist_large .painel_info_hist {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding:6px;
+    border-radius: 8px;
+    background-color: rgba(1,1,1,0.1);
+    //border:1px solid red;
+}
+.box_clMain .col_hist_large .painel_info_hist .line_init_hist {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 40px;
+    //border:1px solid red;
+}
+.box_clMain .col_hist_large .painel_info_hist .painel_msg {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80px;
+    font-size: 0.7rem;
+    //border:1px solid red;
+}
+.box_clMain .col_hist_large .painel_info_hist .painel_msg2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    //height: 100px;
+    //margin-top:20px;
+    font-size: 0.7rem;
+    //border:1px solid red;
+}
+.box_clMain .col_hist_large .painel_info_hist .painel_expan {
+    display:flex;
+    min-width: 250px;
+    //border:1px solid red;
+}
+.box_clMain .col_hist_large .painel_info_hist .painel_expan .el_expan {
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.4);
+    //border:1px solid rgb(0, 255, 13);
+}
+.box_clMain .col_hist_large .painel_info_hist .painel_expan .el_expan .el_expan_header {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid rgb(0, 255, 13);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_header
+.el_header {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid rgb(0, 255, 13);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid rgb(0, 255, 13);
+}
+/* painel interno de descrição do pedido */
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content
+.el_content {
+    display:flex;
+    justify-content: space-between;
+    margin:2px;
+    padding:4px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    background-color: rgba(1,1,1,0.1);
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content .el_content
+.el_content_name {
+    display:flex;
+    flex-direction: column;
+    margin-left: 4px;
+    max-width: 50%;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content .el_content .el_content_name
+.mini_name {
+    display:flex;
+    color:white;
+    font-size: 0.7rem;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content .el_content
+.el_content_pr {
+    display:flex;
+    align-items: center;
+    margin-right: 4px;
+    //border:1px solid rgb(255, 0, 55);
+}
+
+/* painel preço */
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content
+.content_desc {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid rgb(255, 0, 55);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content
+.content_desc
+.el_content_desc {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.7rem;
+    //border:1px solid rgb(38, 0, 255);
+}
+.box_clMain .col_hist_large 
+.painel_info_hist .painel_expan 
+.el_expan .el_expan_content
+.painel_btn_content {
+    display:flex;
+    justify-content: flex-end;
+    //border:1px solid rgb(255, 0, 55);
+}
+/* SMALL ****************************************************/
+
+/* USER INFO MAIN */
+.box_clMain .col_info_user {
+    display:flex;
+    min-width: 250px;
+    border:1px solid red;
+}
+
+/* USER HIST */
+.box_clMain .col_hist {
+    display:flex;
+    min-width: 250px;
+    border:1px solid rgb(47, 0, 255);
+}

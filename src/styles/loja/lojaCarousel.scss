@@ -1,0 +1,19 @@
+.box_lojaCarousel {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    //max-height: 500px;
+    //background-image:url(https://vuejs.org/images/logo.png);
+    //background-image:url('../../assets/pllp.jpg');
+    //background: linear-gradient(1deg, rgb(20, 40, 53), rgb(43, 32, 32));
+    //border:1px solid red;
+}
+.box_lojaCarousel .painelCarousel {
+    display:flex;
+    width:240px;
+    height:140px;
+    border-radius: 8px;
+    //background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(243, 5, 5);
+}

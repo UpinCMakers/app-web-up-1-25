@@ -1,0 +1,16 @@
+.box_makersLineTR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    //border: 1px solid red;
+}
+.box_makersLineTR .tit_painelTR {
+    display: flex;
+
+    margin:20px;
+    color: rgb(31,122,177);
+    font-weight: 100;
+
+    //border: 1px solid red;
+}

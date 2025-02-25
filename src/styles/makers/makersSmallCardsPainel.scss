@@ -1,0 +1,32 @@
+.box_MakersSmallCardsPainel {
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+
+    margin-top:10px;
+    width: 90%;
+
+    //border: 1px solid red;
+}
+.box_MakersSmallCardsPainel .iconMain {
+    display:flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    color: rgb(31,122,177);
+
+    //border: 1px solid red;
+}
+.box_MakersSmallCardsPainel .smallTits {
+    display:flex;
+    justify-content: center;
+
+    margin-top:20px;
+
+    color: rgb(247,215,46);
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    //border: 1px solid red;
+}

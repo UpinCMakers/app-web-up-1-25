@@ -1,0 +1,156 @@
+.box_targetSearchCA {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    //border:1px solid red;
+}
+
+.box_targetSearchCA .label {
+    display:flex;
+    color:bisque;
+    font-size: 0.9rem;
+    //border:1px solid red;
+}
+
+.box_targetSearchCA .boxTitGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    min-height: 80px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.6);
+}
+
+.box_targetSearchCA .titGeral {
+    display:flex;
+    align-items: center;
+    padding:8px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color:bisque;
+    //border:1px solid rgb(48, 121, 189);
+}
+
+.box_targetSearchCA .btnResetSearch {
+    display:flex;
+    align-self: center;
+    //justify-content: flex-end;
+    width:99%;
+    //border:1px solid rgb(48, 121, 189);
+}
+.box_targetSearchCA .btnCallSearch {
+    display:flex;
+    align-self: center;
+    width:99%;
+    font-size: 1rem;
+    //border:1px solid rgb(48, 121, 189);
+}
+
+.box_targetSearchCA .painelGeralConsumidor {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+
+/* calendario */
+.box_targetSearchCA .painelGeralConsumidor .sDate {
+    display:flex;
+    //border:1px solid red;
+}
+.box_targetSearchCA .painelGeralConsumidor .sDate .t {
+    display:flex;
+    padding:4px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color:bisque;
+    border-radius: 8px;
+    border:1px solid rgb(0, 162, 255);
+    background: rgba(7,46,79,0.8);
+    cursor: pointer;
+    //border:1px solid rgb(25, 0, 255);
+}
+.box_targetSearchCA .painelGeralConsumidor .sDate .c {
+    display:flex;
+    align-items: center;
+    //border:1px solid rgb(151, 74, 74);
+}
+
+/* headers da lista */
+.box_targetSearchCA .painelGeralConsumidor .headersClasses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 4px;
+    background: rgba(7,46,79,0.8);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_targetSearchCA .painelGeralConsumidor .headersClasses .hCard {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2px;
+    width: 150px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}
+
+.box_targetSearchCA .painelGeralConsumidor .boxLi {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+.box_targetSearchCA .painelGeralConsumidor .boxLi .liClasses {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding:6px;
+    margin:1px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_targetSearchCA .painelGeralConsumidor .boxLi .liClasses .hCard {
+    display:flex;
+    justify-content: center;
+    width: 150px;
+    margin:1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.1);
+    //border:1px solid rgb(184, 48, 189);
+}
+
+/**/
+.box_targetSearchCA .painelGeralConsumidor .searchBar {
+    display:flex;
+    padding:6px;
+    margin:2px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.4);
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_targetSearchCA .painelGeralConsumidor .searchBar .el_search {
+    display:flex;
+    //border:1px solid rgb(184, 48, 189);
+}
+.box_targetSearchCA .painelGeralConsumidor .searchBar .el_icon_search {
+    display:flex;
+    //border:1px solid rgb(184, 48, 189);
+}

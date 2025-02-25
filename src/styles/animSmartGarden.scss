@@ -1,0 +1,21 @@
+.box_animSmartGarden {
+    display: flex;
+    flex-direction: column;
+    //flex: 1;
+
+    //border: 1px solid blue;
+}
+.box_animSmartGarden .linha_anim {
+    display: flex;
+
+    //border: 1px solid rgb(0, 255, 34);
+}
+.box_animSmartGarden .col_anim {
+    display: flex;
+
+    min-width: 36px;
+    min-height: 36px;
+    margin: 1px;
+
+    //border: 1px solid rgb(0, 255, 34);
+}

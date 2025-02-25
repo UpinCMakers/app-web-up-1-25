@@ -1,0 +1,175 @@
+.box_mapLora {
+    display:flex;
+    flex-direction: column;
+    //border: 1px solid red;
+}
+.box_mapLora .tit_linha {
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //flex-wrap: wrap;
+    min-height:180px;
+    //width: 80%;
+    //padding: 24px;
+    //margin-bottom: 20px;
+    //font-size: 1.4rem;
+    //border:1px solid rgb(161, 31, 236);
+}
+.box_mapLora .tit_linha .box_tit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    //min-height:180px;
+    width: 80%;
+    //padding: 24px;
+    //border:1px solid red;
+}
+.box_mapLora .tit_linha .tit {
+    display:flex;
+    //justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:rgb(31,122,177);
+    //font-size: 0.8rem;
+    //border:1px solid rgb(0, 255, 170);
+}
+
+.box_mapLora .primeira_linha {
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:4px;
+    min-height:120px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    border:1px solid rgb(12, 12, 12);
+}
+.box_mapLora .primeira_linha .tit {
+    display:flex;
+    font-size: 1.4rem;
+    //border:1px solid red;
+}
+.box_mapLora .primeira_linha .sub_tit {
+    display:flex;
+    justify-content: center;
+    width: 90%;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+.box_mapLora .primeira_linha .box_legendaMapPontos {
+    display:flex;
+    //justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    //border:1px solid red;
+}
+
+/* controle main */
+.box_mapLora .linha_controle {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    //border:1px solid red;
+}
+.box_mapLora .linha_controle .card_btn {
+    display:flex;
+    width: 160px;
+    margin-right:4px;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px black;
+    cursor: pointer;
+    border:1px solid rgb(17, 16, 16);
+}
+
+/* controle devices */
+.box_mapLora .linha_controle_devices {
+    display:flex;
+    align-self: center;
+    //justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 30px;
+    margin-bottom: 10px;
+    //border:1px solid red;
+}
+.box_mapLora .linha_controle_devices .card_btn1 {
+    display:flex;
+    width: 160px;
+    margin-right:4px;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px black;
+    cursor: pointer;
+    border:1px solid rgb(17, 16, 16);
+}
+
+.box_mapLora .segunda_linha {
+    display:flex;
+    align-self: center;
+    //justify-content: center;
+    //align-items: center;
+    //position: relative;
+    //min-height:200px;
+    min-height:15px;
+    width: 70%;
+    margin-bottom: 10px;
+    //border:1px solid rgb(8, 8, 8);
+}
+.box_mapLora .segunda_linha .sobreposta {
+    display: flex;
+    //position: absolute;
+    z-index: 1000;
+    margin-top: -15px;
+    height: 100%;
+    min-height:15px;
+    width: 100%;
+    //max-width: 200px;
+    background-color: #092D4F;
+    //border:1px solid red;
+}
+.box_mapLora .segunda_linha .imgTester {
+    display: flex;
+    height: 100%;
+    width: 160px;
+    //max-width: 200px;
+    //border:1px solid red;
+}
+
+.box_mapLora .segunda_linha_small {
+    display:flex;
+    align-self: center;
+    //justify-content: center;
+    //align-items: center;
+    //position: relative;
+    //min-height:200px;
+    min-height:35px;
+    width: 70%;
+    margin-bottom: 10px;
+    //border:1px solid rgb(8, 8, 8);
+}
+.box_mapLora .segunda_linha_small .sobreposta_small {
+    display: flex;
+    //position: absolute;
+    z-index: 1000;
+    margin-top: -35px;
+    height: 100%;
+    min-height:35px;
+    width: 100%;
+    //max-width: 200px;
+    background-color: #092D4F;
+    //border:1px solid red;
+}

@@ -1,0 +1,28 @@
+.box_interPagProdEmail {
+    display:flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding:8px;
+    //border: 1px solid red;
+}
+.box_interPagProdEmail .etapas {
+    display:flex;
+    justify-content: center;
+    width: 250px;
+    //border: 1px solid red;
+}
+.box_interPagProdEmail .etapas .iconsEtapas {
+    display:flex;
+    //align-self: flex-start;
+    //border: 1px solid red;
+}
+.box_interPagProdEmail .btns_painel {
+    display:flex;
+    padding:18px;
+    border-radius: 28px;
+    background:rgb(31,122,177,0.6);
+    box-shadow: 0px 1px 2px black;
+    //border: 1px solid red;
+}

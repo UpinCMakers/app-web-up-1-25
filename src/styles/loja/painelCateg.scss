@@ -1,0 +1,13 @@
+.box_painelCateg {
+    display:flex;
+    flex-direction: column;
+    max-width: 90%;
+    //border:1px solid red;
+}
+.box_painelCateg .tit_painelCateg {
+    display:flex;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color:rgb(31,122,177);
+    //border:1px solid red;
+}

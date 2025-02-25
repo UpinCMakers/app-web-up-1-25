@@ -1,0 +1,58 @@
+.box_dialogB {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0px 4px 8px #092D4F;
+    //border:1px solid red;
+}
+.box_dialogB .tit {
+    display:flex;
+    font-weight: 300;
+    font-size: 1.2rem;
+    //border:1px solid red;
+}
+.box_dialogB .session_form {
+    display:flex;
+    flex-direction: column;
+    //border:1px solid red;
+}
+.box_dialogB .btn_login {
+    display:flex;
+    flex-direction: column;
+    cursor: pointer;
+    //border:1px solid red;
+}
+
+/* coordenadas geograf */
+.box_dialogB .boxCoord {
+    display:flex;
+    flex-direction: column;
+    width: 260px;
+    height: 260px;
+    border:1px solid rgba(7,46,79,0.8);
+}
+/*.box_dialogB .boxCoord .ajuste_boxCoord {
+    z-index:1;
+}*/
+.box_dialogB .boxCoord .aux_boxCoord {
+    display:flex;
+    z-index:10;
+    width: 260px;
+    height: 16px;
+    margin-top:-16px;
+    background: rgba(7,46,79,1);
+    //border:1px solid rgba(7,46,79,0.8);
+}
+
+.box_dialogB .exibCoord {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.8rem;
+    border:1px solid rgba(78, 79, 7, 0.8);
+}

@@ -1,0 +1,117 @@
+.box_smartGarden {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    //border:1px solid red;
+}
+.box_smartGarden .painel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    //height: 100%;
+    width: 100%;
+    //border:1px solid red;
+}
+
+/* btn voltar */
+.box_smartGarden .painel .line_btnToBack {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    //border:1px solid red;
+}
+/* TITULO */
+.box_smartGarden .painel .line_tit {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height:120px;
+    font-size: 2rem;
+    //border:1px solid rgb(26, 10, 10);
+}
+.box_smartGarden .painel .line_tit .parceiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    min-height: 100px;
+    padding:2px;
+    //border: 1px solid red;
+}
+.box_smartGarden .painel .line_tit .parceiro .img_parc {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 1px 2px rgb(247,215,46);
+    //border: 1px solid red;
+}
+
+/* IMG GERAL */
+.box_smartGarden .painel .imgGeral {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    //border: 1px solid red;
+}
+.box_smartGarden .painel .imgGeral .img {
+    display: flex;
+    max-width: 200px;
+    max-height: 200px;
+    //box-shadow: 0px 1px 2px rgb(247,215,46);
+    //border: 1px solid rgb(98, 0, 255);
+}
+
+/* box card de numeros */
+.box_smartGarden .painelNum {
+    display:flex;
+    justify-content: center;
+    padding: 8px;
+    //height: 100%;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_smartGarden .painelNum .boxCardNum {
+    display:flex;
+    flex-direction: column;
+    width: 80px;
+    border-radius: 8px;
+    background: rgb(194, 189, 189);
+    box-shadow: 0px 1px 2px rgb(247,215,46);
+    //border:1px solid red;
+}
+.box_smartGarden .painelNum .boxCardNum .titNum {
+    display:flex;
+    justify-content: center;
+    font-weight: 400;
+    //border:1px solid red;
+}
+.box_smartGarden .painelNum .boxCardNum .valNum {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    //border:1px solid red;
+}
+.box_smartGarden .painelNum .boxCardNum .valNum .circStatus {
+    display:flex;
+    border-radius: 40px;
+    width: 15px;
+    height: 15px;
+    border:2px solid rgb(8, 8, 8);
+}
+
+/* GRAFICOS */
+.box_smartGarden .painelGrafh {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    //height: 100%;
+    width: 100%;
+    //border:1px solid red;
+}

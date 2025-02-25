@@ -1,0 +1,113 @@
+.box_menuMainB {
+    display: flex;
+    //align-self: flex-start;
+    align-self: center;
+    //justify-content: space-between;
+    justify-content: center;
+    //align-items: center;
+    flex-wrap: wrap;
+
+    //padding: 20px;
+    width: 90%; /* SMALL */
+    //max-width: 140px; /* LARGE */
+    height: 50%;
+    max-height: 250px;
+    max-width: 950px;
+    //max-height: 250px;
+    //height: 80px;
+    //margin-top: 20px;
+    //margin-left: 20px;
+
+    //position: fixed;
+    //z-index: 1;
+
+    //margin-bottom: 30px;
+
+    //border-radius: 48px;
+
+    //border: 1px solid rgb(0, 255, 55);
+    //box-shadow: 0px -2px 15px rgb(7,46,79);
+    //box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    //background: rgba(7,46,79,0.9);
+    //background: rgba(255,255,255,0.8);
+}
+.box_menuMainB .el_logo {
+    display: flex;
+    align-items: center;
+    width:40%; /* forçar wrap vertical */
+    //padding:60px;
+    height:100%;
+    ///margin-left:30px;
+    cursor: pointer;
+    //border: 1px solid red;
+}
+.box_menuMainB .el_logo .el_img_logo {
+    display: flex;
+    //width:100px;
+    height: 100%;
+    padding:10px;
+    //box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    //border: 1px solid rgb(0, 255, 55);
+}
+.box_menuMainB .el_words {
+    display: flex;
+    align-self: end;
+    color: rgb(247,215,46);
+    //color: rgba(7,46,79,0.95);
+    margin:2px;
+    font-size: 1rem;
+    cursor: pointer;
+    //border: 1px solid red;
+}
+.box_menuMainB .el_menu {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    min-width:80px; /* forçar wrap vertical */
+    //margin-left:10px;
+    //color: rgb(247,215,46);
+    //font-size: 1rem;
+    cursor: pointer;
+    //border: 1px solid red;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    background: rgba(255,255,255,0.9);
+}
+.box_menuMainB .el_icons {
+    display: flex;
+    //align-self: end;
+    margin:2px;
+    //margin-right:30px;
+    border-radius: 8px;
+    //border: 1px solid red;
+}
+.box_menuMainB .el_icons .iconOne {
+    display: flex;
+    color: rgb(247,215,46);
+    //color: rgba(7,46,79,0.95);
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    //border: 1px solid red;
+}
+
+.shadowBtnMenu:hover {
+    box-shadow: 1px 1px 1px 1px rgb(247,215,46);
+    border-radius: 18px;
+    //padding: 10px;
+    padding: 2px;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+.shadowWordsMenu:hover {
+    box-shadow: 1px 1px 1px 1px rgb(247,215,46);
+    border-radius: 18px;
+    //padding: 10px;
+    padding: 4px;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}

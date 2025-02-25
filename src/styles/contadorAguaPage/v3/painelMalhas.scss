@@ -1,0 +1,24 @@
+.box_painelMalhas {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    //border:1px solid red;
+}
+.box_painelMalhas .menuBreadcrumbs {
+    display:flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:8px;
+    min-height: 40px;
+    //border:1px solid red;
+}
+.box_painelMalhas .menuBreadcrumbs .itemBC {
+    display:flex;
+    padding:2px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    //border:1px solid red;
+}

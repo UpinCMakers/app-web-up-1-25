@@ -1,0 +1,26 @@
+.box_aqua {
+    display:flex;
+    min-height: 550px;
+    height: 100%;
+    padding:10px; /* teste */
+    border:1px solid red;
+}
+
+.box_aqua .plantaPainel {
+    display:flex;
+    width: 100%;
+    border:1px dashed black;
+}
+
+.box_aqua .plantaPainel .setor1 {
+    display:flex;
+    border:1px solid red;
+}
+.box_aqua .plantaPainel .setor1 .race1 {
+    display:flex;
+    padding:10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 40px;
+    border:1px solid rgb(0, 255, 234);
+}

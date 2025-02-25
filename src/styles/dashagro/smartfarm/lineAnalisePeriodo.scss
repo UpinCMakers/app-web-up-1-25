@@ -1,0 +1,122 @@
+.box_lineAnalisePeriodo {
+    display:flex;
+    width: 90%;
+    //max-height: 400px;
+    border-radius: 8px;
+    //border:1px solid red;
+}
+
+/*  */
+.box_lineAnalisePeriodo .painel_volat {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin:8px;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .tit {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    margin-bottom: 4px;
+    //color:#1F7AB1;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.3);
+    //border:1px solid rgb(44, 167, 91);
+}
+
+.box_lineAnalisePeriodo .painel_volat .display_volat {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .box_central {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    min-height: 50px;
+    font-size: 1.2rem;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .box_periodo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 260px;
+    min-height: 200px;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .box_periodo .linhaSeletores {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .box_periodo .linhaSeletores .seletor {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    max-width: 100px;
+    border-radius: 8px;
+    background: #6D956D;
+    cursor: pointer;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .box_periodo .linhaSeletores .seletor
+.tit {
+    display:flex;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .box_periodo .btn {
+    display:flex;
+    //border:1px solid red;
+}
+
+.box_lineAnalisePeriodo .painel_volat .display_volat .infoPainel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 260px;
+    min-height: 250px;
+    font-size: 0.8rem;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .infoPainel .colunaResultado {
+    display:flex;
+    flex-direction: column;
+    //align-items: center;
+    //justify-content: center;
+    width: 80%;
+    height: 80%;
+    padding:4px;
+    border-radius: 8px;
+    background: #6D956D;
+    //border:1px solid rgb(4, 0, 255);
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .infoPainel .colunaResultado .tit {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:4px;
+    //border:1px solid red;
+}
+.box_lineAnalisePeriodo .painel_volat .display_volat .infoPainel .colunaResultado .linha_result {
+    display:flex;
+    padding:4px;
+    //border:1px solid red;
+}

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: myFontsX;
+    /*src: url('./../assets/fonts/NotoSans-Regular.ttf');*/
+    /*src: url('./../assets/fonts/Inconsolata.ttf');*/
+    src: url('./../assets/fonts/Noto_Sans/NotoSans-Bold.ttf');
+}
+
+.box_cardMainA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //justify-content: space-between;
+    flex: 0.35;
+
+    min-width: 180px;
+
+    margin: 6px;
+    //margin-bottom: 60px;
+
+    //border: 1px solid red;
+}
+.box_cardMainA .tit_cardA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 4px;
+    margin-bottom: 10px;
+
+    font-family: myFontsX;
+    font-size: 1.2rem;
+    font-weight: bold;
+    //font-weight: 600;
+    color: rgb(7,46,79);
+
+    //border: 1px solid red;
+}
+.box_cardMainA .tit_cardA .palavrasTit {
+    display: flex;
+
+    margin-right: 8px;
+
+    //border: 1px solid red;
+}
+.box_cardMainA .txt_cardA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 4px;
+    margin-bottom: 10px;
+
+    font-size: 0.8rem;
+    color: rgb(7,46,79);
+
+    //border: 1px solid red;
+}
+.box_cardMainA .txt_cardA .palavras_txt_cardA {
+    display: flex;
+
+    margin: 2px;
+
+    //border: 1px solid red;
+}
+.box_cardMainA .carousel_cardA {
+    display: flex;
+    //flex: 1;
+
+    margin-top: 20px;
+    padding: 6px;
+    width: 100%;
+
+    border-radius: 18px;
+
+    box-shadow: 0px 2px 4px rgb(10, 9, 9);
+    background: white;
+    //border: 1px solid red;
+}

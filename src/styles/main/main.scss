@@ -1,0 +1,38 @@
+.box_main {
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-between;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+    //max-height: 400px;
+    //padding: 10px;
+    //margin:20px;
+    //margin-bottom: 60px;
+
+    /* fixar imagem */
+    //position:fixed;
+    //left:0;
+    //right:10;
+    //top:0;
+    //bottom:0;
+
+    //border: 1px solid rgb(134, 86, 148);
+    //background: linear-gradient(1deg, rgb(31,122,177), rgb(255, 255, 255), rgb(255, 255, 255));
+    //background: linear-gradient(1deg, rgb(31,122,177), rgb(255, 255, 255), rgb(255, 255, 255),rgba(31,122,177,0.4), rgb(255, 255, 255));
+    //background: linear-gradient(1deg, rgba(1,1,1,0.7), rgb(255, 255, 255), rgb(255, 255, 255),rgba(1,1,1,0.3), rgb(255, 255, 255));
+    background: rgb(245,245,245);
+
+    box-shadow: 0px -1px 4px rgb(1,1,1);
+}
+
+.box_main .img_main {
+    display: flex;
+
+    height: 30%;
+    width: 100%;
+
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    //border: 1px solid red;
+}

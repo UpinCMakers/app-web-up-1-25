@@ -1,0 +1,52 @@
+.box_quadLegendRSSI {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    //height: 180px;
+    margin: 2px;
+    border-radius: 6px;
+    border:1px solid rgb(0, 1, 14);
+    background-color: rgba(255,255,255,0.9);
+}
+
+.box_quadLegendRSSI .colA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+    height: 160px;
+    //border:1px solid rgb(255, 0, 170);
+}
+.box_quadLegendRSSI .colA .tit {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    font-weight: 400;
+    color:rgb(31,122,177);
+    //border:1px solid rgb(255, 0, 170);
+}
+.box_quadLegendRSSI .colA .boxQuad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    //border:1px solid rgb(255, 0, 170);
+}
+.box_quadLegendRSSI .colA .quad {
+    display: flex;
+    justify-content: center;
+    height: 16%;
+    width: 90%;
+    font-size: 0.8rem;
+    //border:1px solid rgb(255, 0, 170);
+}
+
+.box_quadLegendRSSI .colB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+    height: 160px;
+    //border:1px solid rgb(0, 255, 149);
+}

@@ -1,0 +1,175 @@
+.box_exibServ {
+    display: flex;
+    flex-direction: column;
+    //border:1px solid rgb(105, 2, 2);
+    min-height: 500px;
+}
+
+/* titulos */
+.box_exibServ .boxTit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    //border:1px solid rgb(76, 0, 255);
+}
+.box_exibServ .boxTit .tit {
+    display: flex;
+    font-size: 1.4rem;
+    //border:1px solid red;
+}
+
+
+.box_exibServ .boxControl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    //justify-content: space-between;
+    //border:1px solid red;
+}
+
+/* grid valve */
+.box_exibServ .boxControl .boxValves {
+    display: flex;
+    flex-direction: column;
+    //margin:1px;
+    width: 49%;
+    min-width: 280px;
+    //border:1px solid red;
+}
+.box_exibServ .boxControl .boxValves .statusValves {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background: rgba(1,1,1,0.3);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+.box_exibServ .boxControl .boxValves .statusValves .titValve {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    //border:1px solid rgb(0, 255, 0);
+}
+.box_exibServ .boxControl .boxValves .statusValves .linhaStatusValve {
+    display: flex;
+    //border:1px solid rgb(0, 60, 255);
+}
+.box_exibServ .boxControl .boxValves .statusValves .linhaStatusValve .colValve {
+    display: flex;
+    flex-direction: column;
+    //margin:1px;
+    width: 50%;
+    //border:1px solid rgb(255, 0, 242);
+}
+.box_exibServ .boxControl .boxValves .statusValves .linhaStatusValve .colValve .valve {
+    display: flex;
+    justify-content: center;
+    //border:1px solid rgb(0, 162, 255);
+}
+.box_exibServ .boxControl .boxValves .statusValves .linhaStatusValve .colValve .valveValue {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    //border:1px solid rgb(255, 230, 0);
+}
+.box_exibServ .boxControl .boxValves .btnsValves {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    background: rgba(1,1,1,0.3);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+.box_exibServ .boxControl .boxValves .btnsValves .titValve {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    //border:1px solid rgb(0, 255, 0);
+}
+.box_exibServ .boxControl .boxValves .btnsValves .linhaBtns {
+    display: flex;
+    justify-content: center;
+    //border:1px solid rgb(0, 60, 255);
+}
+.box_exibServ .boxControl .boxValves .btnsValves .linhaBtns .btnOne {
+    display: flex;
+    flex-direction: column;
+    margin:4px;
+    width: 35%;
+    //border:1px solid rgb(255, 0, 242);
+}
+
+/* logs */
+.box_exibServ .boxControl .painelLogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    //margin:1px;
+    width: 49%;
+    min-width: 280px;
+    border-radius: 6px;
+    background: rgba(1,1,1,0.3);
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+
+.box_exibServ .boxControl .painelLogs .boxLogTit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2rem;
+    //border:1px solid red;
+}
+
+.box_exibServ .boxControl .painelLogs .boxLineTit {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background: rgba(255,255,255,0.6);
+    //border:1px solid red;
+}
+.box_exibServ .boxControl .painelLogs .boxLineTit .cantoSupLog {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    //border:1px solid rgb(0, 89, 255);
+}
+
+.box_exibServ .boxControl .painelLogs .boxLog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding:2px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0px 1px 2px black;
+    border:1px solid black;
+}
+.box_exibServ .boxControl .painelLogs .boxLog .colLog {
+    display: flex;
+    flex-direction: column;
+    //border:1px solid rgb(122, 22, 22);
+}
+.box_exibServ .boxControl .painelLogs .boxLog .colLog .tit {
+    display: flex;
+    font-weight: bolder;
+    //border:1px solid rgba(173, 99, 1, 0.8);
+}
+.box_exibServ .boxControl .painelLogs .boxLog .colLog .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    //border:1px solid rgb(49, 22, 122);
+}
+
+/* graf */
+.box_exibServ .graf {
+    display: flex;
+    justify-content: center;
+    border:1px solid red;
+}

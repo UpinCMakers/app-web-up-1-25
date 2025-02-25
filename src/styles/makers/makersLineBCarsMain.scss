@@ -1,0 +1,93 @@
+.box_makersLineBCarsMain {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    padding: 4px;
+    min-height: 380px;
+
+    //border: 1px solid pink;
+}
+.box_makersLineBCarsMain .box_img_CardMainLineB {
+    display: flex;
+
+    width: 30%;
+    height: 250px;
+
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgb(255, 255, 255);
+    //border: 1px solid rgb(9, 240, 47);
+}
+.box_makersLineBCarsMain .box_txt_CardMainLineB {
+    display: flex;
+    flex-direction: column;
+
+    width: 20%;
+
+    //border: 1px solid rgb(240, 9, 48);
+}
+.box_makersLineBCarsMain .box_txt_CardMainLineB .tit_txtCardMain {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: rgba(255,255,255);
+
+    //border: 1px solid rgb(240, 9, 48);
+}
+.box_makersLineBCarsMain .box_txt_CardMainLineB .desc_txtCardMain {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 4px;
+
+    color:rgb(31,122,177);
+
+    //border: 1px solid rgb(240, 9, 48);
+}
+.box_makersLineBCarsMain .box_txt_CardMainLineB .last_txtCardMain {
+    display: flex;
+    justify-content: flex-end;
+
+    //padding: 4px;
+
+    color:rgba(255,255,255,0.5);
+
+    //border: 1px solid rgb(240, 9, 48);
+}
+.box_makersLineBCarsMain .box_waitExibCardMain {
+    display: flex;
+    flex-direction: column;
+
+    width: 40%;
+
+    //border: 1px solid rgb(9, 240, 47);
+}
+.box_makersLineBCarsMain .box_waitExibCardMain .onWaitExibCardMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin: 2px;
+
+    font-size: 1.2rem;
+
+    cursor: pointer;
+    border-radius: 4px;
+    //background: rgba(255,255,255,0.5);
+    //box-shadow: 0px 1px 2px rgb(247,215,46); /*rgb(31,122,177)*/
+    box-shadow: 0px 1px 2px rgb(255, 255, 255);
+    //border: 1px solid rgb(9, 240, 47);
+}
+
+.shadowCardLineBOnWait:hover {
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px rgb(247,215,46);
+
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}

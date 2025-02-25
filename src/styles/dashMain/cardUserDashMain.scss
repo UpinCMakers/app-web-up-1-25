@@ -1,0 +1,44 @@
+.box_cardUserDashMain {
+    display:flex;
+    flex-direction: column;
+    width: 220px;
+    height: 188px;
+    margin:2px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px black;
+    //border:1px solid red;
+}
+
+.box_cardUserDashMain .cardDashTit {
+    display:flex;
+    justify-content: center;
+    padding:4px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,1);
+    //border:1px solid red;
+}
+
+.box_cardUserDashMain .painelDashContent {
+    display:flex;
+    flex-direction: column;
+    padding:4px;
+    font-size: 0.9rem;
+    //border:1px solid rgb(0, 255, 85);
+}
+.box_cardUserDashMain .painelDashContent .linhaColInfo {
+    display:flex;
+    flex-direction: column;
+    margin:1px;
+    padding:4px;
+    border-radius: 4px;
+    background: rgba(7,46,79,0.6);
+    //border:1px solid rgb(25, 0, 255);
+}
+.box_cardUserDashMain .painelDashContent .linhaColInfo .iconEdit {
+    display:flex;
+    align-self:flex-end;
+    color:rgb(247,215,46);
+    cursor: pointer;
+    //border:1px solid rgb(25, 0, 255);
+}

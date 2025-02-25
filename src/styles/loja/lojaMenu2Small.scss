@@ -1,0 +1,85 @@
+.box_lojaMenu2Small {
+    display: flex;
+    flex-direction: column;
+    background: rgba(7,46,79,0.9);
+    //border: 1px solid red;
+    box-shadow: 0px 1px 10px rgba(247,215,46,1);
+}
+
+/* BTNS: VOLTAR e SEARCH */
+.box_lojaMenu2Small .el_menu2_btns {
+    display:flex;
+    align-items: center;
+    //justify-content: space-between;
+    //width: 100%;
+    height:80px;
+    cursor:pointer;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(17, 0, 255);
+}
+/* COLUNA BTN VOLTAR */
+.box_lojaMenu2Small .el_menu2_btns .menu2_painel_voltar {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    //border:1px solid rgb(255, 0, 221);
+}
+.box_lojaMenu2Small .el_menu2_btns .menu2_painel_voltar .el_txt_menu2 {
+    display:flex;
+    width: 60%;
+    font-weight: 100;
+    font-size: 0.7rem;
+    //border:1px solid rgb(255, 166, 0);
+}
+
+/* COLUNA DE PESQUISA */
+.box_lojaMenu2Small .el_menu2_btns .col_search_menu2 {
+    display:flex;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+    //flex-direction: column;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(0, 255, 76);
+}
+.box_lojaMenu2Small .el_menu2 .col_search_menu2 .icon_el_search {
+    display:flex;
+    align-items: flex-end;
+    width: 20%;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(0, 255, 149);
+}
+.box_lojaMenu2Small .el_menu2 .col_search_menu2 .el_search {
+    display:flex;
+    width: 80%;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(0, 255, 149);
+}
+
+/* IMAGENS CENTRAIS */
+.box_lojaMenu2Small .el_menu2_imgs {
+    display:flex;
+    align-self: center;
+    width: 100%;
+    max-width: 350px;
+    height:80px;
+    cursor:pointer;
+    color: rgb(247,215,46);
+    //border:1px solid rgb(255, 0, 221);
+}
+.box_lojaMenu2Small .el_menu2_imgs .img_menu2_upinc {
+    display:flex;
+    align-self: center;
+    margin-right: -12px;
+    margin-left: 12px;
+    height:60px;
+    min-width:60px;
+    max-width: 20%;
+    //border:1px solid red;
+}
+.box_lojaMenu2Small .el_menu2_imgs .img_menu2_commerce {
+    display:flex;
+    max-width: 80%;
+    //border:1px solid rgb(0, 255, 42);
+}

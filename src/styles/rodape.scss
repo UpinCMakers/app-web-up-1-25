@@ -1,0 +1,96 @@
+.box_rodape {
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    //height: 140px; /* apenas para large screen */
+    min-height: 40px;
+    min-width: 350px; /* NIVELADOR DA PAGINA NAS VERSÕES SMALL */
+    padding: 4px;
+
+    //border: 1px solid red;
+    background: #2F2F2F;
+}
+/* 2 LINHAs INIT COM OS PARCEIROS */
+.box_rodape .el_parceiros_tit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    //width: 80%;
+    min-width: 250px;
+    
+    color: rgb(247,215,46);
+    font-size: 0.7rem;
+    font-weight: bold;
+    
+    //border: 1px solid red;
+}
+.box_rodape .el_parceiros_rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 80%;
+    min-width: 250px;
+    
+    //color: rgb(247,215,46);
+    font-size: 0.7rem;
+    font-weight: 100;
+
+    //border: 1px solid red;
+}
+.box_rodape .el_parceiros_rodape .parceiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    min-height: 100px;
+    padding:2px;
+    //border: 1px solid red;
+}
+.box_rodape .el_parceiros_rodape .parceiro .img_parc {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    //margin: 2px;
+    //padding:5px;
+    box-shadow: 0px 1px 2px rgb(247,215,46);
+    //border: 1px solid red;
+}
+.box_rodape .el_frase_rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    min-width: 250px;
+    
+    color: rgb(247,215,46);
+    font-size: 0.7rem;
+    font-weight: 100;
+
+    //border: 1px solid red;
+}
+.box_rodape .el_end_rodape {
+    display: flex;
+    align-items: center;
+    
+    color: rgb(247,215,46);
+    font-size: 0.7rem;
+
+    //border: 1px solid red;
+}
+.box_rodape .el_end_rodape .inside_el_end_rodape {
+    display: flex;
+    
+    color:rgba(7,46,79,0.8);
+    font-size: 1.1rem;
+    margin-right:2px;
+    margin-left:2px;
+
+    //border: 1px solid red;
+}
