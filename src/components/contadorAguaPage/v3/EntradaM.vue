@@ -140,6 +140,7 @@ export default {
             //console.log('befora liLeituras')
             //console.log('elem saida: ',this.$store.state.liMalhas[idMalha].grupos[idGrupo].saidas[idOUT].leituras)
             var liLeituras = this.$store.state.liMalhas[idMalha].grupos[idGrupo].entradas[idIN].leituras
+            //console.log('(teste) liLeituras: ',liLeituras)
             var liEventos = this.$store.state.liMalhas[idMalha].grupos[idGrupo].entradas[idIN].eventos
 
             // recortar e agrupar apenas o títulos (keys) dos json's leituras e eventos.
@@ -154,6 +155,7 @@ export default {
                     c++
                 }
             }
+            console.log('(teste) this.liValuesLeituras: ',this.liValuesLeituras)
             c=0
             while (c<liEventos.length) { // Sempre haverá o evento inicial de criaçao de um medidor.
                 this.liValuesEventos.push(Object.values(liEventos[c]))

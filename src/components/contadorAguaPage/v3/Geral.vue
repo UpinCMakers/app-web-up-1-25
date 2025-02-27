@@ -27,18 +27,17 @@
 <script>
 export default {
 
-    props:['qntMalhas','qntGrupos','qntMedidores','qntZMC','qntEventos'],
+    //props:['qntMalhas','qntGrupos','qntMedidores','qntZMC','qntEventos'],
 
     data() {
         return {
             //
             liInfo:[
-                {'t':'Malhas','c':3,'b':''},
-                {'t':'Grupos','c':5,'b':''},
-                {'t':'Medidores','c':10,'b':''},
-                {'t':'ZMC','c':0,'b':''},
-                {'t':'Eventos','c':2,'b':''},
-            ],
+                {'t':'Malhas','c':1,'b':''},
+                {'t':'Grupos','c':1,'b':''},
+                {'t':'Medidores','c':3,'b':''},
+                {'t':'Eventos','c':4,'b':''},
+            ]
         }
     },
 
@@ -57,11 +56,13 @@ export default {
     created() {
         window.scrollTo(0,0)
 
+        /*
         this.liInfo[0].c = this.qntMalhas
         this.liInfo[1].c = this.qntGrupos
         this.liInfo[2].c = this.qntMedidores
         this.liInfo[3].c = this.qntZMC
         this.liInfo[4].c = this.qntEventos
+        */
     }
 }
 </script>

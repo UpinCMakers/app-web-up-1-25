@@ -38,44 +38,6 @@
             <v-icon class="ml-1">mdi-square-edit-outline</v-icon>
         </v-btn>
 
-        <!-- GRAFICOS -->
-        <div class="titGeral mt-4">
-            <v-icon :style="{'color':'rgb(31,122,177)'}">mdi-counter</v-icon>
-            <span class="ml-2">Balanço hídrico</span>
-        </div>
-
-        <div class="boxGraf mt-4">
-            <div class="elGraf">
-                <apexchart class="ajusteApexGraf" ref="chartA" :series="series" :options="options"></apexchart>
-            </div>
-
-            <div class="elGraf">
-                <apexchart class="ajusteApexGraf" ref="chart" :series="seriesB" :options="optionsB"></apexchart>
-            </div>
-
-            <div class="elGraf">
-                <div class="infoGraf">
-                    <span class="tit mt-4">Consumo do grupo</span>
-
-                    <div class="content">
-                        <span class="content_t">Período: </span>
-                        <span class="content_c">{{ p }}</span>
-
-                        <span class="content_t">Entrada acumulada no grupo: </span>
-                        <span class="content_c">{{ en }}</span>
-
-                        <span class="content_t">Saída acumulada no grupo: </span>
-                        <span class="content_c">{{ ss }}</span>
-
-                        <span class="content_t">Desperdício acumulado: </span>
-                        <span class="content_c">{{ dd }}</span>
-                        <span class="content_c">{{ ddp }}</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- MEDIDORES -->
         <div class="titGeral mt-4">
             <v-icon :style="{'color':'rgb(31,122,177)'}">mdi-counter</v-icon>
             <span class="ml-2">Medidores</span>
@@ -181,9 +143,6 @@ export default {
 
     data() {
         return {
-            // balanço do grupo
-            liValuesLeituras:[],
-
             //
             liIN:[
                 {
@@ -241,94 +200,6 @@ export default {
             flag_loading_A:false,
             flagError_A:false,
             msgError_A:'Nome inválido',
-
-            // painel de visualização de consumo
-            p:'03/11/2024 - 10/11/2024',
-            en:'1.63 [m3]',
-            ss:'1.33 [m3]',
-            dd:'0.3 [m3]',
-            ddp:'19.88%',
-
-            //
-            series: [
-                {
-                    name: 'Entrada',
-                    type: 'column',
-                    //data: [18, 20, 22, 20, 16, 15]
-                    data: [0, 0, 0, 0, 0, 0]
-                },
-                {
-                    name: 'Saída',
-                    type: 'line',
-                    data: [0, 0, 0, 0, 0, 0],
-                    dashArray: 5  // Define a linha como pontilhada
-                }
-            ],
-            options:{
-                chart: {
-                    type: 'line',
-                    toolbar: {
-                        show: false  // Desativa o menu (toolbar)
-                    },
-                    //width: '280px' // Pode ser um valor em pixels (px) ou percentual (%)
-                },
-                stroke: {
-                    width: [0, 4],
-                    dashArray: [0, 5]  // Faz a segunda série (linha) ser pontilhada
-                },
-                labels: ['', '', '', '', '', ''],
-                tooltip: {
-                    y: {
-                        formatter: function (value) {
-                            return value.toFixed(2); // Limita a 2 casas decimais
-                        }
-                    }
-                },
-            },
-            // chart nivel agua
-            seriesB: [
-                {
-                    name: 'Desperdício',
-                    type: 'column',
-                    data: [0, 0, 0, 0, 0, 0]
-                },
-                {
-                    name: 'Alvo',
-                    type: 'line',
-                    data: [0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0],
-                    dashArray: 5  // Define a linha como pontilhada
-                }
-            ],
-            optionsB:{
-                chart: {
-                    type: 'line',
-                    toolbar: {
-                        show: false  // Desativa o menu (toolbar)
-                    },
-                    //width: '280px' // Pode ser um valor em pixels (px) ou percentual (%)
-                },
-                stroke: {
-                    width: [0, 3],
-                    dashArray: [0, 5]  // Faz a segunda série (linha) ser pontilhada
-                },
-                labels: ['', '', '', '', '', ''],
-                colors: ['#1E90FF', '#FF4500'],
-                yaxis: {
-                    labels: {
-                        formatter: function (value) {
-                            return value.toFixed(2); // 2 casas decimais
-                        }
-                    }
-                },
-                tooltip: {
-                    y: {
-                        formatter: function (value) {
-                            return value.toFixed(2); // 2 casas decimais
-                        }
-                    }
-                }
-
-            },
         }
     },
 
@@ -460,7 +331,6 @@ export default {
             // init lista IN
             var tmpLiIN = this.$store.state.liMalhas[this.idMalha].grupos[this.idGrupo].entradas
             var tam = this.$store.state.liMalhas[this.idMalha].grupos[this.idGrupo].entradas.length
-
             var c = 0
             while (c < tam) {
 
@@ -485,45 +355,6 @@ export default {
                 ) 
                 c++
             }
-            // agrupar todas as leituras de entrada acumuladas, para o grupo atual.
-            var idIN =0
-            var liListasLeiturasIN = []
-            while (idIN < tam) {
-                // c == idIN
-                // tmpLiIN[idIN].leituras == liLeituras
-                let v=0
-                var tmpLeitura = ''
-                if (tmpLiIN[idIN].leituras.length > 0) {
-                    while (v<tmpLiIN[idIN].leituras.length) {
-                        tmpLeitura = Object.values(tmpLiIN[idIN].leituras[v]) // recortar lista leitura no json.
-                        this.liValuesLeituras.push(tmpLeitura[2]) // recortar leitura da lista.
-                        v++
-                    }
-                    liListasLeiturasIN.push(this.liValuesLeituras) // [ [] ]
-                }
-                idIN++
-            }
-            //console.log('(pag medidores) this.liValuesLeituras: ',this.liValuesLeituras)
-
-            // Agrupa todas as listas em um array de arrays
-            //const listas = [lista1, lista2, lista3];
-            // Soma os elementos de mesmo índice em todas as listas
-            //const listaFinal = lista1.map((_, index) => 
-            //    listas.reduce((soma, lista) => soma + lista[index], 0)
-            //);
-            var listaFinal = []
-            if (liListasLeiturasIN.length > 1) {
-                listaFinal = liListasLeiturasIN[0].map((_, index) => 
-                    liListasLeiturasIN.reduce((soma, lista) => soma + lista[index], 0)
-                )
-            } else {
-                //listaFinal = liListasLeiturasIN
-                //listaFinal = Array.from(liListasLeiturasIN); // converter proxyarray em array
-                //listaFinal = [...liListasLeiturasIN] // tentando com spread operator
-                listaFinal = Object.values(liListasLeiturasIN[0]);
-            }
-            //console.log('listaFinal (entrada): ',listaFinal)
-            this.series[0].data = listaFinal
 
             // init lista OUT
             var tmpLiOUT = this.$store.state.liMalhas[this.idMalha].grupos[this.idGrupo].saidas
@@ -552,72 +383,6 @@ export default {
                 ) 
                 c++
             }
-            // agrupar todas as leituras de entrada acumuladas, para o grupo atual.
-            var idOUT = 0
-            var liValuesLeiturasOUT = []
-            var liListasLeiturasOUT = []
-            while (idOUT < tam) {
-                // c == idIN
-                // tmpLiIN[idIN].leituras == liLeituras
-                let v=0
-                var tmpLeituraOUT = ''
-                if (tmpLiOUT[idOUT].leituras.length > 0) {
-                    while (v<tmpLiOUT[idOUT].leituras.length) {
-                        tmpLeituraOUT = Object.values(tmpLiOUT[idOUT].leituras[v]) // recortar lista leitura no json.
-                        liValuesLeiturasOUT.push(tmpLeituraOUT[2]) // recortar leitura da lista.
-                        v++
-                    }
-                    liListasLeiturasOUT.push(liValuesLeiturasOUT) // [ [] ]
-                }
-                idOUT++
-            }
-            //console.log('(pag medidores) liValuesLeiturasOUT: ',liValuesLeiturasOUT)
-
-            var listaFinalOUT = []
-            if (liListasLeiturasOUT.length > 1) {
-                listaFinalOUT = liListasLeiturasOUT[0].map((_, index) => 
-                    liListasLeiturasOUT.reduce((soma, lista) => soma + lista[index], 0)
-                )
-            } else {
-                listaFinalOUT = liListasLeiturasIN
-            }
-            let x=0
-            var tmpLiOUTx = listaFinalOUT
-            listaFinalOUT = []
-            while (x < 23) {
-                listaFinalOUT[x] = tmpLiOUTx[x]
-                x++
-            }
-            //console.log('listaFinalOUT (saida): ',listaFinalOUT)
-            this.series[1].data = listaFinalOUT
-
-            // LISTA DISPERDICIO (continuar aqui)
-            // Subtrai os elementos de mesmo índice em todas as listas
-            //const listaFinal = lista1.map((_, index) => 
-            //    listas.reduce((diferenca, lista, i) => 
-            //        i === 0 ? lista[index] : diferenca - lista[index]
-            //    , 0)
-            //);
-            //console.log('tam listaFinal (IN): ',listaFinal.length)
-            //console.log('tam listaFinalOUT: ',listaFinalOUT.length)
-            const listaFinalOP = [listaFinal, listaFinalOUT]
-            const listaFinalDif = listaFinalOP[0].map((_, index) => 
-                listaFinalOP.reduce((diferenca, lista, i) => 
-                    i === 0 ? lista[index] : diferenca - lista[index]
-                , 0)
-            );
-            //console.log('listaFinalDif: ',listaFinalDif)
-            this.seriesB[0].data = listaFinalDif // graf apex 2.
-            /*var listaFinalDif = []
-            if (liListasLeiturasOUT.length > 1 && liListasLeiturasIN.length > 1) {
-                listaFinalDif = liListasLeiturasOUT[0].map((_, index) => 
-                    liListasLeiturasOUT.reduce((soma, lista) => soma + lista[index], 0)
-                )
-            } else {
-                listaFinalOUT = liListasLeiturasIN
-            }
-            console.log('listaFinalOUT (saida): ',listaFinalOUT)
-            */
 
             this.nomeA = this.$store.state.liMalhas[this.idMalha].grupos[this.idGrupo].grupo
         },
